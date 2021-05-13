@@ -26,7 +26,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 Dr. Love will begin to (a) think seriously about and (b) post syllabus and other materials for the course in July 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
 
 - The course includes many modern ideas for practical work in both statistics and data science, and thus involves considerable programming. 
-- The 431-432 sequence teaches students how to use [R](https://cran.case.edu/), [RStudio](https://www.rstudio.com/products/rstudio/), [R Markdown](https://rmarkdown.rstudio.com/) and [the tidyverse](https://www.tidyverse.org/) for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points for people who want to get started over the summer...
+- The 431-432 sequence teaches students how to use [R](https://cran.case.edu/), [RStudio](https://www.rstudio.com/products/rstudio/), [R Markdown](https://rmarkdown.rstudio.com/) and [the tidyverse](https://www.tidyverse.org/) for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points highly:
     - [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
     - [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
     - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers), especially "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
