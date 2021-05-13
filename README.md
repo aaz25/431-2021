@@ -29,7 +29,7 @@ Dr. Love will begin to (a) think seriously about and (b) post syllabus and other
 - The 431-432 sequence teaches students how to use [R](https://cran.case.edu/), [RStudio](https://www.rstudio.com/products/rstudio/), [R Markdown](https://rmarkdown.rstudio.com/) and [the tidyverse](https://www.tidyverse.org/) for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points for people who want to get started over the summer...
     - [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
     - [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
-    - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers) on "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
+    - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers), especially "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
 - Dr. Love will provide more detailed suggestions in July for those who would like to improve their skills prior to the start of the course. 
 
 ## Note for Prospective Teaching Assistants
