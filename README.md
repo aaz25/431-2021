@@ -4,7 +4,9 @@ This is the Fall 2021 repository for PQHS / CRSP / MPHP 431 at Case Western Rese
 
 ## Note for Prospective Students
 
-Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held  in person, rather than online.  
+### Registration
+
+Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held  in person, rather than online. The schedule will be Tuesdays and Thursdays from 1:00 PM to 2:15 PM.
 
 - If you are a student in the Clinical Research Scholars Certificate, MS or PhD program, you will want to register for CRSP 431.
 - If you are a student in the Masters of Public Health program, you will want to register for MPHP 431.
@@ -19,7 +21,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
 
-## Materials
+### Detailed Materials will appear starting in July
 
 Dr. Love will begin to (a) think seriously about and (b) post syllabus and other materials for the course in July 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
 
