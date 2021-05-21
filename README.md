@@ -13,7 +13,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - All other students, including non-degree students, should register for PQHS 431.
 - The three "flavors" of 431 are otherwise identical.
 
-**All** students at CWRU are welcome to take the course. Dr. Love will begin to approve student requests made through SIS by June 1. 
+**All** students at CWRU are welcome to take the course. Dr. Love will begin to approve student requests made through the student information system (SIS) by June 1. 
 
 - All students who request permission prior to June 1 will be granted permission to enroll in the course at that time. 
 - Students requesting permission later will be admitted to the course until we reach capacity. 
