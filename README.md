@@ -34,9 +34,11 @@ Dr. Love will begin to (a) think seriously about and (b) post syllabus and other
 
 ## Note for Prospective Teaching Assistants
 
-Please email Dr. Love at `thomas dot love at case dot edu` if you are interested in becoming a (compensated or volunteer) teaching assistant for the 431 course in Fall 2021, expressing your interest. Use the subject line **TA for 431**. 
+Please visit http://bit.ly/ta-positions-431-2021 for information on how to apply for either a (compensated or volunteer) teaching assistantship with Dr. Thomas Love this fall to work on the new version of PQHS/CRSP/MPHP 431. Commitments range from 6 to 20 hours per week.
 
-- In late May, Dr. Love will provide a link to application materials and additional details as they become available.
-- Also in late May, he will provide that link to all students who have successfully completed the 431-432 sequence in the past three years, automatically.
+Come help other students to learn R, R Studio, R Markdown, and statistical thinking! Improve your own skills! Learn new things! Make sure you're ready for comprehensive exams! Develop your CV, website and teaching portfolio! 
 
-Thank you.
+We'd love to hear from you if you're interested. The initial deadline for a reply is JULY 19, 2021 at 5 PM although I will consider additional applications as slots remain up until mid-August. 
+
+Thanks for considering this, and I hope you're planning a delightful summer and making the world a little bit better. Please let me know if you have any questions, and make good choices.
+
