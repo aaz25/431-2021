@@ -50,7 +50,7 @@ Month | Dates
 2021-12 | 02
 
 - Note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates. 
-- We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate the need to remain in Cleveland through at least 2021-12-09 for this course.
+- We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate remaining in Northeast Ohio through 2021-12-09 for 431.
 - All work for 431 (including the final exam and all final project materials) will be completed by noon on Monday 2021-12-13.
 
 ## Note for Prospective Teaching Assistants
