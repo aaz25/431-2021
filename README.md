@@ -18,11 +18,12 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 
 **All** students at CWRU are welcome to take the course. Dr. Love will begin to approve student requests made through the student information system (SIS) by June 1. 
 
-- All students who request permission prior to June 1 will be granted permission to enroll in the course at that time. 
+- All students who request permission prior to July 6 will be granted permission to enroll in the course on that date. 
 - Students requesting permission later will be admitted to the course until we reach capacity. 
-- After June 1, students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive highest priority for admission.
+- After July 6, students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive highest priority for admission. Students planning to take both 431 and 432 in the 2021-22 cycle will also receive higher priority than students planning only to take 431.
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
+- Students in the PQHS department wishing to waive 431 should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) would be in their best interests.
 
 ### Detailed Materials will appear in mid-July 2021
 
