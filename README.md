@@ -2,10 +2,10 @@
 
 This is the Fall 2021 repository for PQHS / CRSP / MPHP 431 at Case Western Reserve University with Thomas E. Love, Ph.D.
 
-- [For Prospective Students](https://github.com/THOMASELOVE/431-2021#note-for-prospective-students)
-- [For Prospective Teaching Assistants](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants)
+- [For Prospective Students](https://github.com/THOMASELOVE/431-2021#notes-for-prospective-students)
+- [For Prospective Teaching Assistants](https://github.com/THOMASELOVE/431-2021#for-prospective-teaching-assistants)
 
-## Note for Prospective Students
+## Notes for Prospective Students
 
 ### Registration
 
@@ -53,7 +53,7 @@ Month | Dates
 - We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate remaining in Northeast Ohio through 2021-12-09 for 431.
 - All work for 431 (including the final exam and all final project materials) will be completed by noon on Monday 2021-12-13.
 
-## Note for Prospective Teaching Assistants
+## For Prospective Teaching Assistants
 
 Please visit http://bit.ly/ta-positions-431-2021 for information on how to apply for either a (compensated or volunteer) teaching assistantship with Dr. Thomas Love this fall to work on the new version of PQHS/CRSP/MPHP 431. Commitments range from 6 to 20 hours per week.
 
