@@ -35,9 +35,9 @@ Dr. Love will begin to (a) think seriously about and (b) post syllabus and other
     - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers), especially "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
 - Dr. Love will provide more detailed suggestions in mid-July for those who would like to improve their skills prior to the start of the course. Dr. Love will email all registered students in mid-July when these more detailed materials start to become available.
 
-### Tentative Calendar of Class Sessions
+### Tentative Calendar
 
-Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect there to be **24** classes in Fall 2021, and they will be held on **24** of the 26 dates listed below. A final schedule should be available in mid-August. 
+Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect classes will be held on **24** of the 26 dates listed below. A final schedule should be available in mid-August. 
 
 Month | Dates
 ------- | ------------
@@ -47,7 +47,9 @@ Month | Dates
 2021-11 | 02, 04, 09, 11, 16, 18, 30
 2021-12 | 02
 
-In particular, note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates.
+- Note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates. 
+- We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate the need to remain in Cleveland through at least 2021-12-09 for this course.
+- All work for 431 (including the final exam and all final project materials) will be completed by noon on Monday 2021-12-13.
 
 ## Note for Prospective Teaching Assistants
 
