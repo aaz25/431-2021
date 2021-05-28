@@ -18,8 +18,8 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 
 **All** students at CWRU are welcome to take the course. Dr. Love will, in time, respond to student requests made through the student information system (SIS). 
 
-- Students who request permission prior to July 6 will be granted permission to enroll in the course, no later than July 6. 
-- Students requesting permission later than July 6 will be admitted to the course until we reach capacity. 
+- Students who request permission prior to 2021-07-06 will be granted permission to enroll in the course. 
+- Students requesting permission after 2021-07-06 will be admitted to the course until we reach capacity. 
     - Students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive highest priority for admission. 
     - Students planning to take both 431 and 432 in the 2021-22 cycle will also receive higher priority than students planning only to take 431.
 - Dr. Love does not allow students to audit any of his courses.
@@ -59,7 +59,7 @@ Please visit http://bit.ly/ta-positions-431-2021 for information on how to apply
 
 Come help other students to learn R, R Studio, R Markdown, and statistical thinking! Improve your own skills! Learn new things! Make sure you're ready for comprehensive exams! Develop your CV, website and teaching portfolio! 
 
-We'd love to hear from you if you're interested. The initial deadline for a reply is **July 19, 2021** at 5 PM although Dr. Love will consider additional applications as slots remain up until mid-August. 
+We'd love to hear from you if you're interested. The initial deadline for a reply is **2021-07-19** at 5 PM although Dr. Love will consider additional applications as slots remain up until mid-August. 
 
 Thanks for considering this, and I hope you're planning a delightful summer and making the world a little bit better. Please let me know if you have any questions, and make good choices.
 
