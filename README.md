@@ -24,7 +24,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
     - Students planning to take both 431 and 432 in the 2021-22 cycle will also receive higher priority than students planning only to take 431.
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
-- Students in the PQHS department wishing to waive 431 are welcome to discuss that with their advisor, but should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) for the course would be in their best interest.
+- Students in the PQHS department wishing to waive 431 should discuss that with their advisor and with Dr. Love (in July or August), and should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) would be in their best interest.
 
 ### Detailed Materials will appear in mid-July 2021
 
