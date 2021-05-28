@@ -16,14 +16,15 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - All other students, including non-degree students, should register for PQHS 431.
 - The three "flavors" of 431 are otherwise identical.
 
-**All** students at CWRU are welcome to take the course. Dr. Love will begin to approve student requests made through the student information system (SIS) by June 1. 
+**All** students at CWRU are welcome to take the course. Dr. Love will, in time, respond to student requests made through the student information system (SIS). 
 
-- All students who request permission prior to July 6 will be granted permission to enroll in the course on that date. 
-- Students requesting permission later will be admitted to the course until we reach capacity. 
-- After July 6, students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive highest priority for admission. Students planning to take both 431 and 432 in the 2021-22 cycle will also receive higher priority than students planning only to take 431.
+- Students who request permission prior to July 6 will be granted permission to enroll in the course, no later than July 6. 
+- Students requesting permission later than July 6 will be admitted to the course until we reach capacity. 
+    - Students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive highest priority for admission. 
+    - Students planning to take both 431 and 432 in the 2021-22 cycle will also receive higher priority than students planning only to take 431.
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
-- Students in the PQHS department wishing to waive 431 should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) would be in their best interests.
+- Students in the PQHS department wishing to waive 431 are welcome to discuss that with their advisor, but should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) for the course would be in their best interest.
 
 ### Detailed Materials will appear in mid-July 2021
 
