@@ -2,11 +2,14 @@
 
 This is the Fall 2021 repository for PQHS / CRSP / MPHP 431 at Case Western Reserve University with Thomas E. Love, Ph.D.
 
+- [For Prospective Students](https://github.com/THOMASELOVE/431-2021#note-for-prospective-students)
+- [For Prospective Teaching Assistants](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants)
+
 ## Note for Prospective Students
 
 ### Registration
 
-Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held  in person, rather than online, but we will review this decision in July and again in August. Of course, we will comply with all recommendations and requirements of the University, which may change at any time. The schedule will be Tuesdays and Thursdays from 1:00 PM to 2:15 PM.
+Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held in person, rather than online, but we will review this decision in July and again in August. Of course, we will comply with all recommendations and requirements of the University, which may change at any time. The schedule will be Tuesdays and Thursdays from 1:00 PM to 2:15 PM.
 
 - If you are a student in the Clinical Research Scholars Certificate, MS or PhD program, you will want to register for CRSP 431.
 - If you are a student in the Masters of Public Health program, you will want to register for MPHP 431.
@@ -21,7 +24,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
 
-### Detailed Materials will appear starting in July
+### Detailed Materials will appear in mid-July 2021
 
 Dr. Love will begin to (a) think seriously about and (b) post syllabus and other materials for the course in July 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
 
@@ -30,7 +33,21 @@ Dr. Love will begin to (a) think seriously about and (b) post syllabus and other
     - [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
     - [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
     - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers), especially "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
-- Dr. Love will provide more detailed suggestions in July for those who would like to improve their skills prior to the start of the course. 
+- Dr. Love will provide more detailed suggestions in mid-July for those who would like to improve their skills prior to the start of the course. Dr. Love will email all registered students in mid-July when these more detailed materials start to become available.
+
+### Tentative Calendar of Class Sessions
+
+Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect there to be **24** classes in Fall 2021, and they will be held on **24** of the 26 dates listed below. A final schedule should be available in mid-August. 
+
+Month | Dates
+------- | ------------
+2021-08 | 24, 26, 31
+2021-09 | 02, 07, 09, 14, 16, 21, 23, 28, 30
+2021-10 | 05, 07, 12, 14, 26, 28
+2021-11 | 02, 04, 09, 11, 16, 18, 30
+2021-12 | 02
+
+In particular, note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates.
 
 ## Note for Prospective Teaching Assistants
 
