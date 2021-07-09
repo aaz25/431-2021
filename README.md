@@ -18,7 +18,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 
 ## Will I Be Able to Take the Course This Fall?
 
-While all CWRU students are welcome to take the course, our class size will be restricted to no more than 60 students in Fall 2021. Based on prior demand, some people who want to take the course will not be able to enroll this Fall. To alleviate this problem in the future, we anticipate running multiple sections of the course starting in Fall 2022.
+While all CWRU students are welcome to take the course, our class size will be restricted to **55** students in Fall 2021. Based on prior demand, some people who want to take the course **will not** be able to enroll this Fall. To alleviate this problem in the future, we anticipate running multiple sections of the course starting in Fall 2022.
 
 - Approximately 30 students have already been admitted to the course by Dr. Love (as of 2021-07-09.)
 - Additional requests for enrollment will be reviewed by Dr. Love in response to requests for enrollment made through the Student Information System (SIS) as they come in.
