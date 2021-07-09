@@ -26,7 +26,7 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
 - Students in the PQHS department wishing to waive 431 should discuss that with their advisor and with Dr. Love (in July or August), and should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) would be in their best interest.
 
-### Detailed Materials will appear in mid-July 2021
+### Detailed Materials will appear in late July 2021
 
 Dr. Love will begin to (a) think seriously about and (b) post syllabus and other materials for the course in July 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
 
@@ -35,7 +35,8 @@ Dr. Love will begin to (a) think seriously about and (b) post syllabus and other
     - [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
     - [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
     - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers), especially "The Basics", "Work With Data", "Visualize Data" and "Tidy Your Data"
-- Dr. Love will provide more detailed suggestions in mid-July for those who would like to improve their skills prior to the start of the course. Dr. Love will email all registered students in mid-July when these more detailed materials start to become available.
+- Dr. Love will provide more detailed suggestions in late July for those who would like to improve their skills prior to the start of the course. Dr. Love will email all registered students in late July when these more detailed materials start to become available.
+    - During the course, we will read David Spiegelhalter's *The Art of Statistics* which was first published by Penguin in March 2019 in the UK and then by Basic Books in the US in September 2019. You can purchase either version online or in your local bookstore for about $20. More details on the book are available at [Dr. Spiegelhalter's website](http://www.statslab.cam.ac.uk/~david/). You are welcome to read the book before class starts, if you'd like to get a jump on things, but we'll link readings to the syllabus when that becomes available.
 
 ### Tentative Calendar
 
