@@ -16,15 +16,14 @@ Thank you for your interest in the 431 course for next Fall. 431 is the first in
 - All other students, including non-degree students, should register for PQHS 431.
 - The three "flavors" of 431 are otherwise identical.
 
-## Will I Be Able to Take the Course This Fall?
+## The Waiting List: Will I Be Able to Take the Course This Fall?
 
-While all CWRU students are welcome to take the course, our class size will be restricted to **55** students in Fall 2021. Based on prior demand, some people who want to take the course **will not** be able to enroll this Fall. To alleviate this problem in the future, we anticipate running multiple sections of the course starting in Fall 2022.
+While all CWRU students are welcome to take the course, our class size will be restricted to **55** students in Fall 2021. Based on prior demand, some people who want to take the course **will not** be able to enroll this Fall. To alleviate this problem in the future, we plan to run multiple sections of the course starting in Fall 2022.
 
-- Approximately 30 students have already been admitted to the course by Dr. Love (as of 2021-07-09.)
-- Additional requests for enrollment will be reviewed by Dr. Love in response to requests for enrollment made through the Student Information System (SIS) as they come in.
+- Some students have already been admitted to the course by Dr. Love.
+- Additional requests for enrollment will be reviewed by Dr. Love in response to requests for enrollment made through the Student Information System (SIS) as they come in, and decisions will be made on 2021-08-11 and 2021-08-18 regarding permissions.
     - Students admitted to degree programs in the Department of Population & Quantitative Health Sciences will receive the highest priority for admission.
-    - Students planning to take both 431 and 432 in the 2021-22 cycle will receive higher priority than students planning only to take 431.
-- Dr. Love will review requests periodically in July and August, and will update students' permission status as soon as possible. 
+    - Students planning to take both 431 and 432 in the 2021-22 cycle will receive higher priority than students planning only to take 431. If you have been placed on the waiting list, please feel free to write a short email to Dr. Love if you are interested in letting him know more about your situation, in particular, if you are hoping to take both 431 and 432 this year.
 - All students who wish to take the course must submit a request for enrollment prior to the first class (on 2021-08-24) via SIS.
 - Dr. Love does not allow students to audit any of his courses.
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
