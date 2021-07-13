@@ -45,13 +45,13 @@ Dr. Love will begin to post syllabus and other materials for the course in late 
 
 ### Tentative Calendar
 
-Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect classes will be held on **22-24** of the 26 dates listed below. A final schedule should be available by the first class session on August 24. 
+Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect classes will be held on almost all of the 27 dates listed below. A final schedule should be available by the first class session on August 24. 
 
 Month | Dates
 ------- | ------------
 2021-08 | 24, 26, 31
 2021-09 | 02, 07, 09, 14, 16, 21, 23, 28, 30
-2021-10 | 05, 07, 12, 14, 26, 28
+2021-10 | 05, 07, 12, 14, 21, 26, 28
 2021-11 | 02, 04, 09, 11, 16, 18, 30
 2021-12 | 02
 
