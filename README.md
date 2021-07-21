@@ -61,11 +61,11 @@ Month | Dates
 
 ## For Prospective Teaching Assistants
 
-Please visit http://bit.ly/ta-positions-431-2021 for information on how to apply for either a (compensated or volunteer) teaching assistantship with Dr. Thomas Love this fall to work on the new version of PQHS/CRSP/MPHP 431. Commitments range from 6 to 20 hours per week.
+Please visit http://bit.ly/ta-positions-431-2021 for information on how to apply for a volunteer teaching assistantship (the compensated positions are now filled) with Dr. Thomas Love this fall to work on the new version of PQHS/CRSP/MPHP 431. Commitments average 6.5 hours per week.
 
 Come help other students to learn R, R Studio, R Markdown, and statistical thinking! Improve your own skills! Learn new things! Make sure you're ready for comprehensive exams! Develop your CV, website and teaching portfolio! 
 
-We'd love to hear from you if you're interested. The initial deadline for a reply is **2021-07-19** at 5 PM although Dr. Love will consider additional applications as slots remain up until mid-August. 
+We'd love to hear from you if you're interested. Dr. Love will consider additional volunteers until the start of the semester. 
 
 Thanks for considering this, and I hope you're planning a delightful summer and making the world a little bit better. Please let me know if you have any questions, and make good choices.
 
