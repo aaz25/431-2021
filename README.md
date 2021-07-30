@@ -9,7 +9,7 @@ This is the Fall 2021 repository for PQHS / CRSP / MPHP 431 at Case Western Rese
 
 ### Registration
 
-Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held in person, rather than online, but we will review this decision again in August. Of course, we will comply with all recommendations and requirements of the University, which may change at any time. The schedule will be Tuesdays and Thursdays from 1:00 PM to 2:15 PM.
+Thank you for your interest in the 431 course for next Fall. 431 is the first in a two-semester course sequence, and most students will take 431 in the Fall and 432 in the Spring. Until further notice, we plan for the course to be held in person, rather than online, but we will review this decision again in mid-August. Of course, we will comply with all recommendations and requirements of the University, which may change at any time. The schedule will be Tuesdays and Thursdays from 1:00 PM to 2:15 PM.
 
 - If you are a student in the Clinical Research Scholars Certificate, MS or PhD program, you will want to register for CRSP 431.
 - If you are a student in the Masters of Public Health program, you will want to register for MPHP 431.
@@ -31,9 +31,9 @@ While all CWRU students are welcome to take the course, our class size will be r
 - Dr. Love does allow students in degree programs where the course would be an overload to take 431 (and 432) as a fellowship course.
 - Students in the PQHS department wishing to waive 431 should discuss that with their advisor and with Dr. Love (in July or August), and should consider whether [serving as a volunteer teaching assistant](https://github.com/THOMASELOVE/431-2021#note-for-prospective-teaching-assistants) would be in their best interest.
 
-### Detailed Materials will begin to appear in late July 2021
+### Detailed Materials will appear by August 10
 
-Dr. Love will begin to post syllabus and other materials for the course in late July 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
+Dr. Love will begin to post syllabus and other materials for the course in early August 2021. If you have questions about the course in the meantime, you can reach him by email at `thomas dot love at case dot edu`.
 
 - The course includes many modern ideas for practical work in both statistics and data science, and thus involves considerable programming. 
 - The 431-432 sequence teaches students how to use [R](https://cran.case.edu/), [RStudio](https://www.rstudio.com/products/rstudio/), [R Markdown](https://rmarkdown.rstudio.com/) and [the tidyverse](https://www.tidyverse.org/) for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points highly:
