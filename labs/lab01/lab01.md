@@ -1,6 +1,6 @@
 431 Lab 01
 ================
-Due **2021-09-06** at 9 PM \| Last Edited 2021-08-12 12:27:06
+Due **2021-09-06** at 9 PM \| Last Edited 2021-08-12 12:53:16
 
 ## Deadline
 
@@ -163,8 +163,6 @@ In your response, clearly specify what you see as the Problem, Plan,
 Data, Analysis, and Conclusion while also highlighting how this builds
 upon the results already presented.
 
-# A Few Tips
-
 # Submitting the Lab
 
 Eventually, you will:
@@ -195,3 +193,6 @@ We will summarize some of the more interesting responses to Questions
     will not grade Lab 01 with those elements in mind. (Spelling,
     grammar, syntax and the rest will matter for grading purposes in all
     other assignments this term.)
+
+A detailed answer sketch and grading rubric for this Lab will be
+provided on the day after the deadline.

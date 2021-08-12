@@ -105,9 +105,6 @@ In Question 2 above, you've been given data (D) and a very rough analysis (A), a
 
 In your response, clearly specify what you see as the Problem, Plan, Data, Analysis, and Conclusion while also highlighting how this builds upon the results already presented. 
 
-# A Few Tips
-
-
 # Submitting the Lab
 
 Eventually, you will:
@@ -124,3 +121,4 @@ We will summarize some of the more interesting responses to Questions 2-4 after 
 - This Lab will be graded on a scale from 0-100, and students will receive 25 points for successful completion of each of the four questions. 
 - Note that the teaching assistants will review your responses to Questions 2-4 carefully to assess clarity of writing, attention to detail, and adherence to grammatical and syntax requirements, but we will not grade Lab 01 with those elements in mind. (Spelling, grammar, syntax and the rest will matter for grading purposes in all other assignments this term.)
 
+A detailed answer sketch and grading rubric for this Lab will be provided on the day after the deadline.
