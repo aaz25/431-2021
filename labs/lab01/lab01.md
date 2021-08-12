@@ -1,14 +1,31 @@
 431 Lab 01
 ================
-Due **2021-09-06** at 9 PM \| Last Edited 2021-08-12 11:03:59
+Due **2021-09-06** at 9 PM \| Last Edited 2021-08-12 12:27:06
 
-# Loading Packages
+## Deadline
+
+Lab 01 has 4 questions, all of which you need to complete by the
+deadline posted on the [Course
+Calendar](https://thomaselove.github.io/431/calendar.html). We don’t
+give extensions on Labs. Instead, we use the [Late Work
+policy](https://github.com/THOMASELOVE/431-2021/tree/main/labs#late-work)
+to deal with Late work on Labs.
+
+## Getting Help
+
+You are welcome to discuss Lab 01 with Professor Love, the teaching
+assistants or your colleagues, but your answer must be prepared by you
+alone. Don’t be afraid to ask questions, using any of the methods
+described on our [Contact
+Us](https://thomaselove.github.io/431/contact.html) page.
+
+## Loading Packages
 
 ``` r
 library(patchwork); library(tidyverse)
 ```
 
-# Learning Objectives
+## Learning Objectives
 
 1.  Be comfortable interacting with R to gain additional information
     about an embedded data set.
@@ -18,14 +35,12 @@ library(patchwork); library(tidyverse)
     additional information about the data and building upon your
     description.
 4.  Critically consider, and apply, the PPDAC approach as laid out by
-    Spiegelhalter in the Introduction of *The Art of Statistics:
+    David Spiegelhalter in the Introduction of *The Art of Statistics:
     Learning from Data*.
 
-Lab 01 has 4 questions, all of which you need to complete by the
-deadline posted on the [Course
-Calendar](https://thomaselove.github.io/431/calendar.html).
+# Question 1.
 
-# Question 1. Make a 30-second video to help us pronounce your name and learn something interesting about you
+## Make a 30-second video to help us pronounce your name and learn something interesting about you
 
 In this question, you will create and submit a short (30 seconds or
 less, please) video of yourself (recording yourself using Zoom is a
@@ -58,7 +73,9 @@ resulting video should ideally be sent to us as an **.mp4** file.
 -   We’re not kidding about the 30-second time limit. Please don’t let
     your video exceed 30 seconds.
 
-# Question 2. Interpret Visualizations Built using R
+# Question 2.
+
+## Interpret Visualizations Built using R
 
 We used R and the `tidyverse` (specifically the `ggplot2` part of the
 `tidyverse`) to build two plots using the `DNase` data set from the
@@ -78,6 +95,10 @@ about the data (or science) from the Figure. Be sure to discuss how the
 two plots work together specifically addressing the question of what you
 can learn things from Plot A that you can’t learn from Plot B and vice
 versa.
+
+Your response to this question should be written using clear and
+complete English sentences and minimizing jargon, as is the case with
+all “essays” you will write for this course.
 
 ## Code for Plot A
 
@@ -108,7 +129,9 @@ plotA / plotB +
 
 ![](lab01_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
-# Question 3. React to the Introduction of *The Art of Statistics*
+# Question 3.
+
+## React to the Introduction of *The Art of Statistics*
 
 Read the introduction to David Spiegelhalter’s book *The Art of
 Statistics*. Then write a short essay (of 100-150 words, please)
@@ -119,34 +142,34 @@ systematic way, and don’t feel obliged to write about a “problem” that
 is related to biology or medicine or health or science. Anything you can
 explain briefly and that you are interested in could work well here.
 
-# Question 4. Connecting Spiegelhalter to Question 2
+Again, your response to this question (and to the other Questions)
+should be written using clear and complete English sentences and
+minimizing jargon.
+
+# Question 4.
+
+## Connecting Spiegelhalter to Question 2
 
 In Question 2 above, you’ve been given data (D) and a very rough
 analysis (A), and from your own write-up have drawn some conclusions
-(C). The PPDAC approach is notably a cycle, that after a conclusion we
-return to another problem. Given what you’ve learned about the data,
-what you’ve seen in the analysis, and the conclusions you’ve drawn in
-Question 2, briefly (no more than 100 words) describe your thoughts as
-to what the next cycle of the PPDAC approach for this study could be.
-Please be sure to clearly specify what you see as the Problem, Plan,
+(C). The PPDAC approach is notably a cycle, and so after we create a
+conclusion we return to another problem. Given what you’ve learned about
+the data, what you’ve seen in the analysis, and the conclusions you’ve
+drawn in Question 2, briefly (again, in 100-150 words) describe your
+thoughts as to what the next cycle of the PPDAC approach for a study of
+these data could be.
+
+In your response, clearly specify what you see as the Problem, Plan,
 Data, Analysis, and Conclusion while also highlighting how this builds
-upon the results already presented. As with your responses to Questions
-2 and 3, this essay should also be written as a paragraph, using clear
-and complete English sentences and minimizing jargon.
+upon the results already presented.
 
 # A Few Tips
-
-You are welcome to discuss Lab 01 with Professor Love, the teaching
-assistants or your colleagues, but your answer must be prepared by you
-alone. Don’t be afraid to ask questions including during [TA office
-hours](https://thomaselove.github.io/431/contact.html) or after class
-with Dr. Love.
 
 # Submitting the Lab
 
 Eventually, you will:
 
--   create an `.mp4` video file for part 1
+-   create an `.mp4` video file for Question 1
 -   build a single Word or PDF or HTML document containing your
     responses to Questions 2-4 (please include your full name in the
     body of the document and clearly indicate which part of your
@@ -154,8 +177,9 @@ Eventually, you will:
     “Question 2.”)
 
 The essays and the video should be submitted (the system will let you
-upload each file) to the Lab 01 section in the [Assignments folder in
-Canvas](http://canvas.case.edu) by the deadline.
+upload each file individually) to the Lab 01 section in the [Assignments
+folder in Canvas](http://canvas.case.edu) before the deadline on the
+[Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
 # Grading
 
