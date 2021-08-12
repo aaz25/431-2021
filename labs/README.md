@@ -4,23 +4,23 @@ Details on the Labs appear at the links below. See the [Course Calendar](https:/
 
 Lab | Assignment | Answer Sketch/Grading Rubric
 :----: | :--------------: | :---------------------------:
-01 | Lab 01 Instructions | To appear
-02 | Lab 02 Instructions | To appear
-03 | Lab 03 Instructions | To appear
-04 | Lab 04 Instructions | To appear
-05 | Lab 05 Instructions | To appear
-06 | Lab 06 Instructions | To appear
-07 | Lab 07 Instructions | To appear
-08 | Lab 08 Instructions | To appear
+01 | [Lab 01 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab01) | To appear
+02 | [Lab 02 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab02) | To appear
+03 | [Lab 03 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab03) | To appear
+04 | [Lab 04 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab04) | To appear
+05 | [Lab 05 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab05) | To appear
+06 | [Lab 06 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab06) | To appear
+07 | [Lab 07 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab07) | To appear
+08 | [Lab 08 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab08) | To appear
 
 ## Grading
 
 All labs are graded by the TAs and then reviewed by Dr. Love. Your grades will be available approximately one week after the deadline for each Lab. 
 
-**Grades on Labs** (and our records about minute papers) will be found in the course grading roster that will appear later in the semester.
+**Grades on Labs** (and our records about minute papers) will be found in the **Course Grading Roster** that will appear later in the semester.
 
 - You'll need to log into Google via CWRU to see your scores and the comments left there by the Teaching Assistants. 
-- Your **Lab Code** identifies you in the roster. You will receive your Lab Code via email from Dr. Love. (The email's subject will be 431 Lab Code.) 
+- Your **Lab Code** identifies you in the roster. You will receive your Lab Code via email from Dr. Love in September. (The email's subject will be 431 Lab Code.) 
 
 ## Late Work?
 
