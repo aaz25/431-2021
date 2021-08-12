@@ -11,7 +11,7 @@ Lab | Assignment | Answer Sketch/Grading Rubric
 05 | [Lab 05 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab05) | To appear
 06 | [Lab 06 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab06) | To appear
 07 | [Lab 07 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab07) | To appear
-08 | [Lab 08 Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab08) | To appear
+X | [Lab X Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/labX) | To appear
 
 ## Grading
 
