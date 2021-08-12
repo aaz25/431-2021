@@ -1,6 +1,6 @@
 # Lab 01 Materials
 
-Instructions for Lab 01 will appear here when available.
+Instructions for Lab 01 [are available here](lab01.md).
 
 All deadlines for 431 work, including this Lab, are posted in the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
