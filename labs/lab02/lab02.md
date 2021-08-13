@@ -1,6 +1,6 @@
 431 Lab 02
 ================
-Due **2021-09-20** at 9 PM \| Last Edited 2021-08-12 21:49:05
+Due **2021-09-20** at 9 PM \| Last Edited 2021-08-12 22:11:33
 
 ## Deadline
 
@@ -188,6 +188,44 @@ essay (100-150 words) that dicusses the process of inductive inference
 and how that influences the conclusions we can draw from our work in
 this assignment. As always, use complete and clear English sentences in
 your essay.
+
+# Include the session information
+
+At the end of your R Markdown file, please include a new code chunk to
+provide the **session information**. The result will look something like
+this.
+
+``` r
+sessionInfo()
+```
+
+    R version 4.1.0 (2021-05-18)
+    Platform: x86_64-w64-mingw32/x64 (64-bit)
+    Running under: Windows 10 x64 (build 19043)
+
+    Matrix products: default
+
+    locale:
+    [1] LC_COLLATE=English_United States.1252 
+    [2] LC_CTYPE=English_United States.1252   
+    [3] LC_MONETARY=English_United States.1252
+    [4] LC_NUMERIC=C                          
+    [5] LC_TIME=English_United States.1252    
+
+    attached base packages:
+    [1] stats     graphics  grDevices utils     datasets  methods   base     
+
+    loaded via a namespace (and not attached):
+     [1] compiler_4.1.0    magrittr_2.0.1    tools_4.1.0       htmltools_0.5.1.1
+     [5] yaml_2.2.1        stringi_1.7.3     rmarkdown_2.9     knitr_1.33       
+     [9] stringr_1.4.0     xfun_0.24         digest_0.6.27     rlang_0.4.11     
+    [13] evaluate_0.14    
+
+Providing the session information helps with reproducibility. It lets us
+see what packages you have loaded on your machine, and some other
+information about your R session that can be helpful in understanding
+any problems you run into. The `sessionInfo()` command shown above is
+part of the template for this Lab.
 
 # Submitting the Lab
 
