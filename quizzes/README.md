@@ -12,7 +12,7 @@ The "Instructions" for each Quiz will include:
 
 - links to relevant data sets
 - a PDF of the Quiz itself (which will also be posted to our shared google drive)
-- a link to the Google Form answer sheet for the Quiz
+- a link to the Answer Sheet for the Quiz (which is a Google Form, like the ones we use for the Minute Papers)
 
 You must log into Google via CWRU to access the Answer Sheet and you must complete your submission of this Form no later than the posted deadline on the [Course Calendar](https://thomaselove.github.io/431/calendar.html). 
 
