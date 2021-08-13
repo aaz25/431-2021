@@ -34,6 +34,6 @@ After Class | due at NOON on | Link to Minute Paper Form | Link to Dr. Love's Fe
 
 Details on how course participation is affected by Minute Papers are provided in **Section X.X.X of the Syllabus**. The most common ways to earn additional class participation besides the Minute Papers are:
 
-(1) doing bonus things Dr. Love offers during the semester, 
-(2) asking and answering useful questions on Piazza, and in class sessions, and 
-(3) finding typos in the materials and helping Dr. Love to fix them
+1. completing "bonus" tasks Dr. Love offers during the semester, 
+2. asking and answering useful questions **on Piazza**, and **in class sessions**, and 
+3. finding typos in the materials and helping Dr. Love to fix them
