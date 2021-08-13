@@ -1,6 +1,6 @@
 431 Lab 03
 ================
-Due **2021-09-27** at 9 PM \| Last Edited 2021-08-12 21:48:39
+Due **2021-09-27** at 9 PM \| Last Edited 2021-08-12 22:13:55
 
 ## Deadline
 
@@ -190,6 +190,59 @@ of access to adequate food causes obesity.
 In your response be sure to also discuss whether the method that we used
 to identify these data (our 750 observation random sample) strengthens
 or weakens your conclusion(s).
+
+# Include the session information
+
+At the end of your R Markdown file, please include a new code chunk to
+provide the **session information**. This time, we’ll use an alternative
+approach to get this (as compared to what we did in Lab 02):
+
+``` r
+sessioninfo::session_info()
+```
+
+    - Session info ---------------------------------------------------------------
+     setting  value                       
+     version  R version 4.1.0 (2021-05-18)
+     os       Windows 10 x64              
+     system   x86_64, mingw32             
+     ui       RTerm                       
+     language (EN)                        
+     collate  English_United States.1252  
+     ctype    English_United States.1252  
+     tz       America/New_York            
+     date     2021-08-12                  
+
+    - Packages -------------------------------------------------------------------
+     package     * version date       lib source        
+     cli           3.0.1   2021-07-17 [1] CRAN (R 4.1.0)
+     digest        0.6.27  2020-10-24 [1] CRAN (R 4.1.0)
+     evaluate      0.14    2019-05-28 [1] CRAN (R 4.1.0)
+     htmltools     0.5.1.1 2021-01-22 [1] CRAN (R 4.1.0)
+     knitr         1.33    2021-04-24 [1] CRAN (R 4.1.0)
+     magrittr      2.0.1   2020-11-17 [1] CRAN (R 4.1.0)
+     rlang         0.4.11  2021-04-30 [1] CRAN (R 4.1.0)
+     rmarkdown     2.9     2021-06-15 [1] CRAN (R 4.1.0)
+     rstudioapi    0.13    2020-11-12 [1] CRAN (R 4.1.0)
+     sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 4.1.0)
+     stringi       1.7.3   2021-07-16 [1] CRAN (R 4.1.0)
+     stringr       1.4.0   2019-02-10 [1] CRAN (R 4.1.0)
+     withr         2.4.2   2021-04-18 [1] CRAN (R 4.1.0)
+     xfun          0.24    2021-06-15 [1] CRAN (R 4.1.0)
+     yaml          2.2.1   2020-02-01 [1] CRAN (R 4.1.0)
+
+    [1] C:/Users/Thomas/Documents/R/win-library/4.1
+    [2] C:/Program Files/R/R-4.1.0/library
+
+Again, providing the session information helps with reproducibility. It
+lets us see what packages you have loaded on your machine, and some
+other information about your R session that can be helpful in
+understanding any problems you run into. The
+`sessioninfo::session_info()` command shown above is part of the
+template for this Lab, and is a good alternative in many cases to the
+approach we took in Lab 02. One or the other of these session
+information runs should appear at the end of all of your lab and project
+work for this course.
 
 # Submitting the Lab
 

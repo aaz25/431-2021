@@ -111,6 +111,16 @@ Reflecting on Chapter 4 of *The Art of Statistics*, please write an essay of no 
 
 In your response be sure to also discuss whether the method that we used to identify these data (our 750 observation random sample) strengthens or weakens your conclusion(s).
 
+# Include the session information
+
+At the end of your R Markdown file, please include a new code chunk to provide the **session information**. This time, we'll use an alternative approach to get this (as compared to what we did in Lab 02):
+
+```{r}
+sessioninfo::session_info()
+```
+
+Again, providing the session information helps with reproducibility. It lets us see what packages you have loaded on your machine, and some other information about your R session that can be helpful in understanding any problems you run into. The `sessioninfo::session_info()` command shown above is part of the template for this Lab, and is a good alternative in many cases to the approach we took in Lab 02. One or the other of these session information runs should appear at the end of all of your lab and project work for this course.
+
 # Submitting the Lab
 
 As mentioned, you should build your entire response as an R Markdown file using the `YOURNAME-lab03.Rmd` template provided. Then use the Knit button in RStudio to create the resulting HTML document. Be sure to remove all of the instructions included in the original template before submitting your work, and also be sure to review the HTML result to ensure that it looks clean and clear, that the labels on your plots and other output are easy to read, and that it doesn't retain any unnecessary warning messages or other material that distracts from your work.
