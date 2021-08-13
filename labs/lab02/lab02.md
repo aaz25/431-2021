@@ -1,6 +1,6 @@
 431 Lab 02
 ================
-Due **2021-09-20** at 9 PM \| Last Edited 2021-08-12 20:53:13
+Due **2021-09-20** at 9 PM \| Last Edited 2021-08-12 21:49:05
 
 ## Deadline
 
@@ -60,18 +60,13 @@ useful R Markdown document template for this assignment called
     you’ll need in a ZIP file, including the template to an easy place
     to find them on your computer (we suggest a `431-data` subdirectory
     in your `2021-431` directory.) Then copy the template into your
-    directory for Lab 02, specifically, that you created earlier. That’s
-    probably the easiest approach.
--   If you prefer, the `YOURNAME-Lab02.Rmd` file [is also available
-    here](https://raw.githubusercontent.com/THOMASELOVE/431-2021/master/labs/lab02/YOURNAME-lab02.Rmd).
-    Just save the plain text file that you’ll see at that link to your
-    computer with the appropriate .Rmd extension.
+    directory for Lab 02, specifically, that you created earlier.
 
 You will build your response to all eight questions as an R Markdown
-file using the `YOURNAME-lab02.Rmd` template provided. Then use the Knit
-button in RStudio to create the resulting HTML document. You’ll want to
-do this multiple times as you go, to identify potential problems
-quickly.
+file using the `YOURNAME-lab02.Rmd` template provided. Use the Knit
+button in RStudio to compile your work and create the HTML output.
+You’ll want to do this multiple times as you go, to identify potential
+problems quickly.
 
 ## Obtaining the Data for Lab 02
 
