@@ -1,6 +1,6 @@
 # Quizzes
 
-Details on the Quizzes will appear at the links below, at the times indicated on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
+Details on the Quizzes will appear at the links below. See the [Course Calendar](https://thomaselove.github.io/431/calendar.html) for all course deadlines.
 
 Quiz | Instructions | Deadline
 :---: | :---: | :---:
