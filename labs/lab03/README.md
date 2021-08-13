@@ -1,6 +1,6 @@
 # Lab 03 Materials
 
-Instructions for Lab 03 will appear here when available.
+Instructions for Lab 03 [are available here](lab03.md).
 
 All deadlines for 431 work, including this Lab, are posted in the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
