@@ -20,5 +20,5 @@ You must log into Google via CWRU to access the Answer Sheet and you must comple
 - When you submit the Google Form, your responses will be emailed to your CWRU email address, along with a link to allow you to edit your work before the deadline.
 - Dr. Love grades all Quizzes. You will usually receive your Quiz grade within 48 hours of the submission deadline.
 
-Additional information on Quizzes is provided in **Section X.X.X of the Course Syllabus**.
+Additional information on Quizzes is provided in **Section X.X.X of the Course Syllabus** and we will also provide guidance regarding getting help and completing the Quiz forms as part of the Quiz instructions.
 
