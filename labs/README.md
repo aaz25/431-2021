@@ -17,7 +17,7 @@ X | [Lab X Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/
 
 All labs are graded by the TAs and then reviewed by Dr. Love. Your grades will be available approximately one week after the deadline for each Lab. 
 
-**Grades on Labs** (and our records about minute papers) will be found in the **Course Grading Roster** that will appear later in the semester.
+**Grades on Labs** (and our records about minute papers) will be found in the **Course Grading Roster** that will appear in September.
 
 - You'll need to log into Google via CWRU to see your scores and the comments left there by the Teaching Assistants. 
 - Your **Lab Code** identifies you in the roster. You will receive your Lab Code via email from Dr. Love in September. (The email's subject will be 431 Lab Code.) 
