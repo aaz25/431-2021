@@ -1,5 +1,9 @@
 # Software Tutorials and Examples for 431
 
+## Getting Help
+
+Use the [Contact Us](https://thomaselove.github.io/431/contact.html) page on our main website to find out about all the ways you can get help from us during the semester.
+
 ## Installation
 
 - Visit [the Install R page](https://thomaselove.github.io/431/software_install.html) for information on installing R and RStudio.
@@ -12,18 +16,21 @@ If you need more help, you might look at [this terrific resource for Installing 
 
 Professor Love's document entitled **Getting Started with R** is a good first step. It demonstrates some of the details on how to use these tools to actually analyze data. 
 
-- [Here is the R Markdown code](https://github.com/THOMASELOVE/431-2020/blob/master/software/01_getting_started_with_R/431-getting-started-with-R.Rmd) that produces the other materials. To download it, select Raw and download the result, or else grab it from our [Data Downloads page](https://github.com/THOMASELOVE/431-data), following the instructions there.
-- [Here is the downloadable PDF](https://github.com/THOMASELOVE/431-2020/blob/master/software/01_getting_started_with_R/431-getting-started-with-R.pdf).
-- [Here is an HTML file](http://rpubs.com/TELOVE/getting-started-2020) that the R Markdown code produces, if you'd like to see it.
-- Here is the [431-r-template.Rmd](https://github.com/THOMASELOVE/431-2020/blob/master/software/01_getting_started_with_R/431-r-template.Rmd) file that Dr. Love refers to in the Getting Started with R materials. The template is also available on our [Data Downloads page](https://github.com/THOMASELOVE/431-data).
+- [Here is the R Markdown code](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-getting-started-with-R.Rmd) that produces the other materials. To download it, select Raw and download the result, or else grab it from our [Data Downloads page](https://github.com/THOMASELOVE/431-data), following the instructions there.
+- [Here is the downloadable PDF](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-getting-started-with-R.pdf).
+- [Here is an HTML file](https://rpubs.com/TELOVE/getting-started-2021) that the R Markdown code produces, if you'd like to see it.
+- Here is the [431-r-template.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-r-template.Rmd) file that Dr. Love refers to in the Getting Started with R materials. The template is also available on our [Data Downloads page](https://github.com/THOMASELOVE/431-data).
 - [The Course Notes](https://thomaselove.github.io/431-notes/) are the primary source for R Examples we'll use this semester.
 
 ## Other Places to Learn about R, RStudio and R Markdown
 
-Our Main Recommendation is that you visit and explore the resources at [RStudio Education's Beginners page](https://education.rstudio.com/learn/beginner/). A particularly nice resource is Chester Ismay and Patrick Kennedy's [Getting Used to R, RStudio and R Markdown](https://rbasics.netlify.app/) for those of you looking for an introduction to the basics.
- 
-## RStudio Primers
- 
-The [RStudio Primers](https://rstudio.cloud/learn/primers) are especially helpful for those of you for whom R or the tidyverse are new things, and who like interactive tutorials. 
+The 431-432 sequence teaches students how to use R, RStudio, R Markdown and the tidyverse for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points highly:
 
-- The tutorials I recommend most strongly are: [The Basics](https://rstudio.cloud/learn/primers/1), [Work with Data](https://rstudio.cloud/learn/primers/2), [Visualize Data](https://rstudio.cloud/learn/primers/3) and [Tidy Your Data](https://rstudio.cloud/learn/primers/4), all of which would be helpful to review before our first Quiz.
+- [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
+- [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
+- [RStudio Cloud Primers](https://rstudio.cloud/learn/primers)
+    - The tutorials we recommend most strongly here are: [The Basics](https://rstudio.cloud/learn/primers/1), [Work with Data](https://rstudio.cloud/learn/primers/2), [Visualize Data](https://rstudio.cloud/learn/primers/3) and [Tidy Your Data](https://rstudio.cloud/learn/primers/4), all of which would be helpful to review before our first Quiz.
+- If you're already a strong coder, and have some R experience, there are also [learning pathways for intermediates at RStudio Education](https://education.rstudio.com/learn/intermediate/) which might be appealing to you.
+
+Our goal is to get everyone well into the intermediate level by December. Some people will get there in September, for others it will take longer. But you can do this, and we'll be there to help you.
+
