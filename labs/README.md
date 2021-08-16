@@ -17,7 +17,7 @@ X | [Lab X Instructions](https://github.com/THOMASELOVE/431-2021/tree/main/labs/
 
 All labs are graded by the TAs and then reviewed by Dr. Love. Your grades will be available approximately one week after the deadline for each Lab. 
 
-**Grades on Labs** (and our records about minute papers) will be found in the **Course Grading Roster** that will appear in September.
+**Grades on Labs** (and our records about minute papers) will be found in the [Course Grading Roster](https://bit.ly/431-2021-grades) that will appear in September.
 
 - You'll need to log into Google via CWRU to see your scores and the comments left there by the Teaching Assistants. 
 - Your **Lab Code** identifies you in the roster. You will receive your Lab Code via email from Dr. Love in September. (The email's subject will be 431 Lab Code.) 
@@ -37,5 +37,5 @@ The **Lab Regrade Request Form** will be posted later in the semester. This is h
 
 - Essentially, if you want Dr. Love to review your grade on one (or more) of our Labs, fill out the **Lab Regrade Request Form** anytime before 2021-12-10 at noon, as specified on the [Course Calendar](https://thomaselove.github.io/431/calendar.html). 
 - In December, after all course work has been graded, Dr. Love will open the form. If you have requested additional points that could change your course grade, he'll review your request. If not, then he won't. 
-- Visit **Section X.X.X of the Syllabus** for more details on this policy.
+- Visit [this section of the Syllabus](https://thomaselove.github.io/431-2021-syllabus/deliverables-assignments.html#appeal-policy---request-a-review-in-december) for more details on this policy.
 
