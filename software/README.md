@@ -2,7 +2,7 @@
 
 ## Getting Help
 
-Use the [Contact Us](https://thomaselove.github.io/431/contact.html) page on our main website to find out about all the ways you can get help from us during the semester.
+Use the [Contact Us](https://thomaselove.github.io/431/contact.html) page on our main website to find out about all the ways you can get help from us during the semester. We want to help you with your R problems!
 
 ## Installation
 
