@@ -34,6 +34,6 @@ After Class | due at NOON on | Link to Minute Paper Form | Link to Dr. Love's Fe
 
 Details on how course participation is affected by Minute Papers are provided in [this section of our Syllabus](https://thomaselove.github.io/431-2021-syllabus/deliverables-assignments.html#minute-papers-and-class-participation). The most common ways to earn additional class participation besides the Minute Papers are:
 
-1. completing "bonus" tasks Dr. Love offers during the semester, 
+1. completing "bonus" tasks Dr. Love offers during the semester, so keep your eyes open for these opportunities
 2. asking and answering useful questions on [Piazza](https://piazza.com/case/fall2021/pqhs431), and **in class sessions**, and 
 3. finding typos in the materials and helping Dr. Love to fix them
