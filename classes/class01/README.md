@@ -1,4 +1,4 @@
-# 431 Class 01: 2021-08-23
+# 431 Class 01: 2021-08-24
 
 This is the README for Class 01 of Professor Love's 431 course for Fall 2021.
 
@@ -6,7 +6,7 @@ This is the README for Class 01 of Professor Love's 431 course for Fall 2021.
 
 The main website for this class is https://thomaselove.github.io/431/. 
 
-Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html) from the main website, and then select today's class ([Class 01: 2021-08-23](https://github.com/THOMASELOVE/431-2021/blob/master/classes/class01)).
+Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html) from the main website, and then select today's class ([Class 01: 2021-08-24](https://github.com/THOMASELOVE/431-2021/tree/main/classes/class01)).
 
 ## Today's Slides
 
