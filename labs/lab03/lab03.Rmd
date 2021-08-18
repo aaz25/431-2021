@@ -36,6 +36,7 @@ As in Lab 02, after you've downloaded the relevant files, open RStudio, and use 
 We have provided an R Markdown document template for this assignment called `YOURNAME-Lab03.Rmd` that you should use to complete your work. 
 
 - The template is part of the [Data and Code repository](https://github.com/THOMASELOVE/431-data) for the course. Follow the instructions posted there to download all of the files you'll need in a ZIP file, including the template to an easy place to find them on your computer (we suggest a `431-data` subdirectory in your `2021-431` directory.) Then copy the template into your directory for Lab 03, specifically, that you created earlier. That's probably the easiest approach.
+- The template provides some coding hints, which we hope you'll make use of.
 
 You should build your response to all ten questions as an R Markdown file using the `YOURNAME-lab03.Rmd` template provided. Use the Knit button in RStudio to compile your work and create the HTML output. You'll want to do this multiple times as you go, to identify potential problems quickly.
 

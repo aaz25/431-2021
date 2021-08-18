@@ -1,6 +1,6 @@
 431 Lab 03
 ================
-Due **2021-09-27** at 9 PM \| Last Edited 2021-08-18 09:43:53
+Due **2021-09-27** at 9 PM \| Last Edited 2021-08-18 09:54:55
 
 ## Deadline
 
@@ -60,6 +60,8 @@ called `YOURNAME-Lab03.Rmd` that you should use to complete your work.
     in your `2021-431` directory.) Then copy the template into your
     directory for Lab 03, specifically, that you created earlier. That’s
     probably the easiest approach.
+-   The template provides some coding hints, which we hope you’ll make
+    use of.
 
 You should build your response to all ten questions as an R Markdown
 file using the `YOURNAME-lab03.Rmd` template provided. Use the Knit
