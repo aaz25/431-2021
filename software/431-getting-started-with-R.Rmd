@@ -17,7 +17,7 @@ linkcolor: blue
 
 are found at https://github.com/THOMASELOVE/431-2021/blob/main/software/README.md
 
-- This includes the R Markdown code, the downloadable PDF, the HTML produced by the R Markdown code, and the 431-template.Rmd file I've provided.
+- This includes the R Markdown code, the downloadable PDF, the HTML produced by the R Markdown code, and the `431-first-r-template.Rmd` file I've provided.
 
 # Purpose of this Document
 
@@ -31,7 +31,7 @@ This is meant to walk you through the steps of completing some elementary analys
     + Don't use the same subdirectory/folder for multiple projects. You'll have many projects this semester.
     + A good directory path might be something like `pqhs431/2021-08-31_my-first-R-project`
     + You won't believe how important it is for you to understand where your files are and a well-designed naming scheme is an enormous time-saver. "A place for everything, and everything in its place" and all that...
-3. Put any data you plan to import into R, and a copy of the `431-r-template.Rmd` file into your project folder.
+3. Put any data you plan to import into R, and a copy of the `431-first-r-template.Rmd` file into your project folder.
 4. Start R Studio and begin by opening up a **project**.
     + Use **File ... New Project** to create a new project in your **project folder**.
         + Create the R project in the main **project folder**, regardless of whether you've placed the data in that same folder, or in a data subdirectory of that folder.
@@ -42,12 +42,12 @@ This is meant to walk you through the steps of completing some elementary analys
 
 A R Markdown file is just a plain text document, with interspersed R code that lets you produce reports that combine narration with results, and that can be easily exported as an HTML, Word or PDF file. It's a great tool. Dr. Love builds virtually everything you'll see in this class with R Markdown. R Markdown files use the `.Rmd` extension.
 
-Open the template file `431-r-template.Rmd` by clicking on it in the **Files** tab on the lower right of your R Studio setup, or selecting **File ... Open** from the main menu.
+Open the template file `431-first-r-template.Rmd` by clicking on it in the **Files** tab on the lower right of your R Studio setup, or selecting **File ... Open** from the main menu.
     + The start of the template file is a top-line set of instructions to R Markdown about how to process the rest of the document. It is referred to as the YAML material, and looks like this:
 
 ```
 ---
-title: "R Markdown Template"
+title: "A First R Markdown Template"
 author: "Your Name"
 date: "`r Sys.Date()`"
 output:
@@ -59,7 +59,7 @@ output:
 
 Actually, next to the word `date:`, your template has a little bit of code that inserts today's date. I'd leave that as it is - that way you don't need to switch dates around, and your document will always show the date on which it was last generated.
 
-Now, edit the file to include a meaningful Title for this work, and place your actual name in the author section. Then use **File ... Save as** to save the Markdown file under a new project-specific name, rather than the generic `431-r-template.Rmd`. Your result should look something like this:
+Now, edit the file to include a meaningful Title for this work, and place your actual name in the author section. Then use **File ... Save as** to save the Markdown file under a new project-specific name, rather than the generic `431-first-r-template.Rmd`. Your result should look something like this:
 
 ```
 ---
