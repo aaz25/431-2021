@@ -1,6 +1,6 @@
 431 Lab 03
 ================
-Due **2021-09-27** at 9 PM \| Last Edited 2021-08-18 09:54:55
+Due **2021-09-27** at 9 PM \| Last Edited 2021-08-18 10:57:17
 
 ## Deadline
 
@@ -75,9 +75,10 @@ There are two sets of data used in this lab.
 
 ### The `penguins` data
 
-First, we’ll be using the `penguins` data (note: use the `penguins`
-tibble, and not the `penguins_raw` tibble for this Lab) contained in the
-`palmerpenguins` package in R. The complete citation is …
+In Questions 1-5, we’ll be using the `penguins` data (note: use the
+`penguins` tibble, and not the `penguins_raw` tibble for this Lab)
+contained in the `palmerpenguins` package in R. The complete citation is
+…
 
 Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago
 (Antarctica) penguin data. R package version 0.1.0.
@@ -94,9 +95,9 @@ that are worth your time.
 
 ### County Health Rankings data
 
-Next, we’ll be using additional data from the [2021 County Health
-Rankings Data](https://www.countyhealthrankings.org/) that we saw back
-in Lab 02. We have compiled a larger data set called
+In Questions 6-9, we’ll be using additional data from the [2021 County
+Health Rankings Data](https://www.countyhealthrankings.org/) that we saw
+back in Lab 02. We have compiled a larger data set called
 `lab03_counties.csv` which you will find in our [Data and Code
 repository](https://github.com/THOMASELOVE/431-data). This data file
 contains all of the counties and a dozen of the available variables in
@@ -146,7 +147,7 @@ Take a random sample of 750 counties from the County Health Rankings
 Data provided in `lab03_counties.csv`. As part of this work, use the
 command:
 
-    set.seed(2012022)
+    set.seed(20212022)
 
 so that each of us selects the same sample of data. Name this random
 sample `chr_sample` in R. Select only the following variables: `state`,
