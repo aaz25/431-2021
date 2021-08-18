@@ -19,7 +19,7 @@ Professor Love's document entitled **Getting Started with R** is a good first st
 - [Here is the R Markdown code](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-getting-started-with-R.Rmd) that produces the other materials. To download it, select Raw and download the result, or else grab it from our [Data Downloads page](https://github.com/THOMASELOVE/431-data), following the instructions there.
 - [Here is the downloadable PDF](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-getting-started-with-R.pdf).
 - [Here is an HTML file](https://rpubs.com/TELOVE/getting-started-2021) that the R Markdown code produces, if you'd like to see it.
-- Here is the [431-r-template.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-r-template.Rmd) file that Dr. Love refers to in the Getting Started with R materials. The template is also available on our [Data Downloads page](https://github.com/THOMASELOVE/431-data).
+- Here is the [431-first-r-template.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/software/431-first-r-template.Rmd) file that Dr. Love refers to in the Getting Started with R materials. The template is also available on our [Data Downloads page](https://github.com/THOMASELOVE/431-data).
 - [The Course Notes](https://thomaselove.github.io/431-notes/) are the primary source for R Examples we'll use this semester.
 
 ## Other Places to Learn about R, RStudio and R Markdown
