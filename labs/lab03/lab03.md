@@ -1,6 +1,6 @@
 431 Lab 03
 ================
-Due **2021-09-27** at 9 PM \| Last Edited 2021-08-12 22:13:55
+Due **2021-09-27** at 9 PM \| Last Edited 2021-08-18 09:43:53
 
 ## Deadline
 
@@ -94,11 +94,11 @@ that are worth your time.
 
 Next, we’ll be using additional data from the [2021 County Health
 Rankings Data](https://www.countyhealthrankings.org/) that we saw back
-in Lab 02. We have compiled a larger data set called `chr_data.csv`
-which you will find in our [Data and Code
-repository](https://github.com/THOMASELOVE/431-data). This data file is
-the “full” data and contains all of the counties and all available
-variables.
+in Lab 02. We have compiled a larger data set called
+`lab03_counties.csv` which you will find in our [Data and Code
+repository](https://github.com/THOMASELOVE/431-data). This data file
+contains all of the counties and a dozen of the available variables in
+the full County Health Rankings data.
 
 # Part A: Palmer Penguins (Questions 1-5)
 
@@ -140,8 +140,9 @@ mass across species?
 
 ## Question 6 (10 points)
 
-Take a random sample of 750 counties from the full County Health
-Rankings Data. As part of this work, use the command:
+Take a random sample of 750 counties from the County Health Rankings
+Data provided in `lab03_counties.csv`. As part of this work, use the
+command:
 
     set.seed(2012022)
 
@@ -150,7 +151,7 @@ sample `chr_sample` in R. Select only the following variables: `state`,
 `county_name`, `adult_obesity`, and `food_insecurity`.
 
 Once this is done, demonstrate that Cuyahoga County in Ohio is in your
-sample and that the mean of `adult_obesity` is 0.335.
+sample and that the mean of `adult_obesity` is 0.3345.
 
 ## Question 7 (10 points)
 
@@ -211,7 +212,7 @@ sessioninfo::session_info()
      collate  English_United States.1252  
      ctype    English_United States.1252  
      tz       America/New_York            
-     date     2021-08-12                  
+     date     2021-08-18                  
 
     - Packages -------------------------------------------------------------------
      package     * version date       lib source        
@@ -222,7 +223,7 @@ sessioninfo::session_info()
      knitr         1.33    2021-04-24 [1] CRAN (R 4.1.0)
      magrittr      2.0.1   2020-11-17 [1] CRAN (R 4.1.0)
      rlang         0.4.11  2021-04-30 [1] CRAN (R 4.1.0)
-     rmarkdown     2.9     2021-06-15 [1] CRAN (R 4.1.0)
+     rmarkdown     2.10    2021-08-06 [1] CRAN (R 4.1.0)
      rstudioapi    0.13    2020-11-12 [1] CRAN (R 4.1.0)
      sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 4.1.0)
      stringi       1.7.3   2021-07-16 [1] CRAN (R 4.1.0)
