@@ -38,6 +38,7 @@ opts_knit$set(width=75)
 ```{r load_packages_here, message = FALSE}
 library(janitor)
 library(magrittr)
+library(naniar)
 library(tidyverse)
 ```
 
@@ -70,6 +71,7 @@ To help you think about the chunk of code below, note that the code below does t
 2. Filter to the states we've selected (the `%in%` command lets us include any state that is in the list we then create with the c() function).
 3. Select the variables that we're going to use in our study, including the three mandatory variables (fipscode, state and county).
 4. Rename the five variables we've selected with more meaningful names. These names are motivated by the actual meaning of the variables, as shown in the top row (that we deleted) in the original csv, the PDF files I've included for you, and the more detailed variable descriptions on the County Health Ranking site.
+5. Four of the five variables I've selected are listed as proportions, and we'd like them instead to be percentages, so I'll rescale those, as well.
 
 ```{r}
 chr_2019 <- chr_2019_raw %>%
@@ -82,7 +84,11 @@ chr_2019 <- chr_2019_raw %>%
            freq_mental_distress = v145_rawvalue,
            hsgraduation = v021_rawvalue,
            unemployment = v023_rawvalue,
-           food_insecurity = v139_rawvalue)
+           food_insecurity = v139_rawvalue) %>%
+    mutate(freq_mental_distress = 100*freq_mental_distress,
+           hsgraduation = 100*hsgraduation,
+           unemployment = 100*unemployment,
+           food_insecurity = 100*food_insecurity)
 ```
 
 ## Repairing the `fipscode` and factoring the `state`
@@ -169,8 +175,8 @@ This approach is nice in one way, because it specifies the groups with a mathema
 chr_2019 <- chr_2019 %>%
     mutate(temp3_cut2 = factor(Hmisc::cut2(unemployment, g = 2)),
            temp4_newnames = fct_recode(temp3_cut2,
-                                         lessthan4 = "[0.0218,0.0400)",
-                                         higher = "[0.0400,0.0605]"))
+                                         lessthan4 = "[2.18,4.00)",
+                                         higher = "[4.00,6.05]"))
 
 mosaic::favstats(unemployment ~ temp4_newnames, data = chr_2019) %>% 
     kable(digits = 3)
@@ -217,9 +223,9 @@ mosaic::favstats(hsgraduation ~ temp3, data = chr_2019) %>%
 ```{r}
 chr_2019 <- chr_2019 %>%
     mutate(hsgrad_cat = fct_recode(temp3,
-                                   bottom = "[0.724,0.880)",
-                                   middle = "[0.880,0.909)",
-                                   top = "[0.909,0.946]"))
+                                   bottom = "[72.4,88.0)",
+                                   middle = "[88.0,90.9)",
+                                   top = "[90.9,94.6]"))
 
 mosaic::favstats(hsgraduation ~ hsgrad_cat, data = chr_2019) %>% 
     kable(digits = 3)
@@ -232,21 +238,21 @@ mosaic::favstats(hsgraduation ~ hsgrad_cat, data = chr_2019) %>%
 
 ### Creating a 5-Category variable with Specified Cutpoints
 
-Suppose we want to split our `hsgraduation` data so that we have five categories, based on the cutpoints (0.8, 0.85, 0.9 and 0.92). These four cutpoints will produce five **mutually exclusive** (no county can be in more than one category) and **collectively exhaustive** (every county is assigned to a category) categories: 
+Suppose we want to split our `hsgraduation` data so that we have five categories, based on the cutpoints (80, 85, 90 and 92). These four cutpoints will produce five **mutually exclusive** (no county can be in more than one category) and **collectively exhaustive** (every county is assigned to a category) categories: 
 
-1. `hsgraduation` rate below 0.80, 
-2. 0.80 up to but not including 0.85, 
-3. 0.85 up to but not including 0.90, 
-4. 0.90 up to but not including 0.92, and 
-5. `hsgraduation` rate of 0.92 or more
+1. `hsgraduation` rate below 80, 
+2. 80 up to but not including 85, 
+3. 85 up to but not including 90, 
+4. 90 up to but not including 92, and 
+5. `hsgraduation` rate of 92 or more
 
 ```{r, message = FALSE}
 chr_2019 <- chr_2019 %>%
     mutate(temp4 = case_when(
-        hsgraduation < 0.8 ~ "1_lowest",
-        hsgraduation < 0.85 ~ "2_low",
-        hsgraduation < 0.9 ~ "3_middle",
-        hsgraduation < 0.92 ~ "4_high",
+        hsgraduation < 80 ~ "1_lowest",
+        hsgraduation < 85 ~ "2_low",
+        hsgraduation < 90 ~ "3_middle",
+        hsgraduation < 92 ~ "4_high",
         TRUE ~ "5_highest"),
         temp4 = factor(temp4))
 
@@ -305,7 +311,7 @@ More details on two of our original five variables are specified below. These re
 
 - `lifeexpectancy` was originally variable `v147_rawvalue`, and is listed in the Length of Life subcategory under Health Outcomes at County Health Rankings. It describes the average number of years a person residing in the county can expect to live, according to the current mortality experience (age-specific death rates) of the county's population. It is based on data from the National Center for Health Statistics Mortality Files from 2016-18. This will be my **outcome** variable.
 
-- `hsgraduation` was originally variable `v021_rawvalue`, and is listed in the Education subcategory under Social & Economic Factors at County Health Rankings. It describes the proportion of the county's ninth grade cohort that graduates with a high school diploma in four years, and is based on EDFacts data from 2016-17. Comparisons across state lines are not recommended because of differences in how states define the data, according to County Health Rankings.
+- `hsgraduation` was originally variable `v021_rawvalue`, which we multiplied by 100 to turn it from a proportion to a percentage, and is listed in the Education subcategory under Social & Economic Factors at County Health Rankings. It describes the proportion of the county's ninth grade cohort that graduates with a high school diploma in four years, and is based on EDFacts data from 2016-17. Comparisons across state lines are not recommended because of differences in how states define the data, according to County Health Rankings. 
 
 ## Proposal Requirement 1 
 
@@ -343,7 +349,7 @@ Do we have any missing data here?
 
 ```{r}
 chr_2019 %>% 
-    summarize(across(life_expectancy:food_insecurity, ~ sum(is.na(.))))
+    miss_var_summary()
 ```
 
 Nope, so we're OK!
@@ -400,6 +406,8 @@ Having done all of this work, the set of Proposal Requirements (repeated below) 
 This isn't part of the proposal.
 
 # Session Information
+
+Be sure to include the session information.
 
 ```{r}
 sessionInfo()
