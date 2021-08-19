@@ -7,7 +7,7 @@ The main website with information on Project A will be found at **URL TO COME**.
 The files associated with this example include:
 
 - Dr. Love's R Markdown file
-- Dr. Love's resulting HTML file, which you can download at the links above, and also view directly at https://rpubs.com/TELOVE/projA-proposal-example-431-2020.
+- Dr. Love's resulting HTML file can be viewed at https://rpubs.com/TELOVE/projectA-proposal-example-431-2021.
 - data (.csv) as downloaded from County Health Rankings for **2019**
 - the raw data (also .csv) after removing the top row of the downloaded file
 - two PDFs from County Health Rankings identifying the variables in the data
