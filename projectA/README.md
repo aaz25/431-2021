@@ -2,12 +2,9 @@
 
 The main website with information on Project A will be found at **URL TO COME**.
 
-## Project Proposal Example using 2019 CHR Data
+## Project A Proposal Example 
 
-The files associated with this example include:
+Dr. Love built a sample Project A proposal using 2019 CHR Data and states not available to you. Please make good use of these documents.
 
-- Dr. Love's R Markdown file
-- Dr. Love's resulting HTML file can be viewed at https://rpubs.com/TELOVE/projectA-proposal-example-431-2021.
-- data (.csv) as downloaded from County Health Rankings for **2019**
-- the raw data (also .csv) after removing the top row of the downloaded file
-- two PDFs from County Health Rankings identifying the variables in the data
+- Dr. Love's [R Markdown file](https://github.com/THOMASELOVE/431-2021/blob/main/projectA/love-example-projectA-proposal) should be an excellent starting point for the development of your proposal. 
+- The resulting HTML file can be viewed at https://rpubs.com/TELOVE/projectA-proposal-example-431-2021, which may be easier for you to read and will also show you what your final result should look like.
