@@ -3,13 +3,13 @@ title: "Getting Started with R"
 author: "Thomas E. Love"
 date: "`r Sys.Date()`"
 output:
-    pdf_document:
-        number_sections: yes
-        toc: yes
     html_document:
         number_sections: yes
         toc: yes
         code_folding: show
+    pdf_document:
+        number_sections: yes
+        toc: yes
 linkcolor: blue
 ---
 
