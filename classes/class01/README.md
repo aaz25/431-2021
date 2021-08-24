@@ -12,7 +12,6 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 ## Today's Slides
 
 - Class 01 slides are available in [PDF format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.pdf), as well as in [R Markdown format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.Rmd), so you can see how I built them.
-- While I cannot promise that today's class will be recorded and posted afterwards (as we work through some technical challenges), it is our intent that sessions after today will be.
 
 ## Today's Agenda and Announcements
 
