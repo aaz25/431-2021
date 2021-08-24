@@ -15,8 +15,9 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 
 ## Today's Agenda and Announcements
 
-1. Thank you to those of you who've completed the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey). If you haven't completed this yet, please do so today. Dr. Love will discuss the results in Class 02.
-    - To answer one very common question, it is our goal to record each class and make those recordings available to you, starting with Class 02.
+1. Thank you to the 57 of you who've completed the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey). If you are one of the folks who haven't completed this yet, please do so today. 
+    - Dr. Love will discuss the results in Class 02.
+    - To answer one very common question now, it is our goal to record each class and make those recordings available to you, starting with Class 02.
 
 2. We'll start today on [the main page](https://thomaselove.github.io/431/) for the course, and look over:
 
@@ -37,7 +38,7 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 
 ## Ten Things To Do After Class
 
-1. Complete the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey) if you haven't done so already.
+1. Complete the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey) if you haven't done so already. 
 2. Read the [Syllabus](https://thomaselove.github.io/431-2021-syllabus/) and do what it asks you to do. It's very long.
 3. Bookmark and familiarize yourself with the [Main Page](https://thomaselove.github.io/431/) for the course, especially the [Calendar](https://thomaselove.github.io/431/calendar.html) of deadlines, and take a look at the [Course Notes](https://thomaselove.github.io/431-notes/).
 4. Follow the R and Data instructions to [install R and R Studio](https://thomaselove.github.io/431/software_install.html), and get the necessary [R Packages](https://thomaselove.github.io/431/r_packages.html) and [431 Data downloads](https://thomaselove.github.io/431/data_index.html) onto your computer.
