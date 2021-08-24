@@ -8,10 +8,6 @@ The main website for this class is https://thomaselove.github.io/431/.
 
 Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html) from the main website, and then select today's class ([Class 01: 2021-08-24](https://github.com/THOMASELOVE/431-2021/tree/main/classes/class01)).
 
-## [Every Data Table](https://xkcd.com/2502) from XKCD
-
-![](https://imgs.xkcd.com/comics/every_data_table.png)
-
 ## Today's Slides
 
 - Class 01 slides will be provided in PDF format, as well as in R Markdown format, so you can see how I built them.
@@ -34,6 +30,10 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 - the Shared Google Drive for the course, which you should find listed as **431 Fall 2021 Dr Love and Students** on your CWRU Google Drive. At the moment, it contains the TA office hours schedule and Zoom links for those office hours.
 
 3. RStudio's [incredibly useful Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) had a [major update announced on 2021-08-23](https://blog.rstudio.com/2021/08/23/cheat-sheet-updates/). Many RStudio cheatsheets have been updated or reworked based on recent package updates.
+
+## [Every Data Table](https://xkcd.com/2502) from XKCD
+
+![](https://imgs.xkcd.com/comics/every_data_table.png)
 
 ## Ten Things To Do After Class
 
