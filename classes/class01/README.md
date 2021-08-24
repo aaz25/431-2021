@@ -13,7 +13,9 @@ The main website for this class is https://thomaselove.github.io/431/. Get here 
 
 ## Today's Agenda and Announcements
 
-1. Thank you to the 57 of you who've completed the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey). If you are one of the folks who haven't completed this yet, please do so today. 
+1. Thank you to the 60 of you who've completed the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey). 
+    - If you haven't completed this yet (Ali Alhomoud, Paula Ambrose, Siddharth Dugar and Tianze Wang), please do so this afternoon. 
+    - If you are not yet enrolled in this class (including Brian Hiidel) please talk to me before you leave this room.
     - Dr. Love will discuss the results in Class 02.
     - To answer one very common question now, it is our goal to record each class and make those recordings available to you, starting with Class 02.
 
