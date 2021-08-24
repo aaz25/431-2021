@@ -11,6 +11,7 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 ## Today's Slides
 
 - Class 01 slides will be provided in PDF format, as well as in R Markdown format, so you can see how I built them.
+- While I cannot promise that today's class will be recorded and posted afterwards as we work through some technical challenges, most sessions will be.
 
 ## Today's Agenda and Announcements
 
