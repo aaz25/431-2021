@@ -17,6 +17,7 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 ## Today's Agenda and Announcements
 
 1. Thank you to those of you who've completed the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey). If you haven't completed this yet, please do so today. Dr. Love will discuss the results in Class 02.
+    - To answer one very common question, it is our goal to record each class and make those recordings available to you, starting with Class 02.
 
 2. We'll start today on [the main page](https://thomaselove.github.io/431/) for the course, and look over:
 
