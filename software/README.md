@@ -27,6 +27,7 @@ Professor Love's document entitled **Getting Started with R** is a good first st
 The 431-432 sequence teaches students how to use R, RStudio, R Markdown and the tidyverse for data science. Although no prior experience with these tools is required, it is definitely helpful. We recommend the following starting points highly:
 
 - [RStudio Education's Beginners Page](https://education.rstudio.com/learn/beginner/)
+- RStudio's [incredibly useful Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) had a [major update announced on 2021-08-23](https://blog.rstudio.com/2021/08/23/cheat-sheet-updates/). Many RStudio cheatsheets have been updated or reworked based on recent package updates.
 - [ModernDive: Statistical Inference via Data Science](https://moderndive.com/index.html), in particular, sections 1-4.
 - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers)
     - The tutorials we recommend most strongly here are: [The Basics](https://rstudio.cloud/learn/primers/1), [Work with Data](https://rstudio.cloud/learn/primers/2), [Visualize Data](https://rstudio.cloud/learn/primers/3) and [Tidy Your Data](https://rstudio.cloud/learn/primers/4), all of which would be helpful to review before our first Quiz.
