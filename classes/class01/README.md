@@ -1,6 +1,6 @@
 # 431 Class 01: 2021-08-24
 
-This is the README for Class 01 of Professor Love's 431 course for Fall 2021.
+This is the README for Class 01 of Professor Love's 431 course for Fall 2021. Each class' README serves as a starting point (a home) for that class session.
 
 ## How do I get to this README page?
 
