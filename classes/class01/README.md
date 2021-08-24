@@ -48,6 +48,15 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 9. Ask us questions. TA office hours start next week, but [Piazza is available now](https://piazza.com/case/fall2021/pqhs431).
 10. Take a look at [Lab 01 (due 2020-09-06)](https://github.com/THOMASELOVE/431-2021/tree/main/labs/lab01) which is your first substantial deliverable. If you like, you can also look at the [instructions for Project A](https://thomaselove.github.io/431/projects.html), but we'll talk about that in a couple of weeks.
 
+## Links from Today's Slides
+
+- XKCD on [Correlation vs. Causation](https://xkcd.com/552)
+- Syllabus [description of TAs and their backgrounds](https://thomaselove.github.io/431-2021-syllabus/teaching-assistants.html)
+- The Art of Statistics, by David Spiegelhalter, is the book you need to purchase. [Dr. Spiegelhalter's web site is here](http://www.statslab.cam.ac.uk/~david/).
+- [R For Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
+- [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Cetinkaya-Rundel and Johanna Hardin
+- Age-Guessing at https://www.guessmyage.net/
+
 -----
 
 ## One Last Thing
