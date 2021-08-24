@@ -57,6 +57,10 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 - [R For Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
 - [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Cetinkaya-Rundel and Johanna Hardin
 - Age-Guessing at https://www.guessmyage.net/
+- Hans Rosling and "The Joy of Stats" on YouTube is at http://bit.ly/431-rosling.
+    - The [20 minute version](https://www.youtube.com/watch?v=RUwS1uAdUcI) from 2007 TED talk
+    - The [full documentary from the BBC](https://www.gapminder.org/videos/the-joy-of-stats/)
+    - Video [playlist from Gapminder](https://www.gapminder.org/videos/)
 
 -----
 
