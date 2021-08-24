@@ -31,9 +31,7 @@ Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html
 
 3. RStudio's [incredibly useful Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) had a [major update announced on 2021-08-23](https://blog.rstudio.com/2021/08/23/cheat-sheet-updates/). Many RStudio cheatsheets have been updated or reworked based on recent package updates.
 
-## [Every Data Table](https://xkcd.com/2502) from XKCD
-
-![](https://imgs.xkcd.com/comics/every_data_table.png)
+![](https://imgs.xkcd.com/comics/every_data_table.png) [Every Data Table](https://xkcd.com/2502) from [XKCD](https://xkcd.com/)
 
 ## Ten Things To Do After Class
 
