@@ -8,6 +8,10 @@ The main website for this class is https://thomaselove.github.io/431/.
 
 Get here by selecting [Calendar](https://thomaselove.github.io/431/calendar.html) from the main website, and then select today's class ([Class 01: 2021-08-24](https://github.com/THOMASELOVE/431-2021/tree/main/classes/class01)).
 
+## [Every Data Table](https://xkcd.com/2502) from XKCD
+
+![](https://imgs.xkcd.com/comics/every_data_table.png)
+
 ## Today's Slides
 
 - Class 01 slides will be provided in PDF format, as well as in R Markdown format, so you can see how I built them.
