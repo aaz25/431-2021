@@ -32,6 +32,7 @@ The 431-432 sequence teaches students how to use R, RStudio, R Markdown and the 
 - [RStudio Cloud Primers](https://rstudio.cloud/learn/primers)
     - The tutorials we recommend most strongly here are: [The Basics](https://rstudio.cloud/learn/primers/1), [Work with Data](https://rstudio.cloud/learn/primers/2), [Visualize Data](https://rstudio.cloud/learn/primers/3) and [Tidy Your Data](https://rstudio.cloud/learn/primers/4), all of which would be helpful to review before our first Quiz.
 - There is an R package and set of tools called the [introverse](https://spielmanlab.github.io/introverse/articles/introverse_online.html) which is another way to get some help with basic ideas in R and the tidyverse that we'll be discussing through the semester.
+- You can learn a fair amount to [get started with R with teacup giraffes](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html), if you're looking for an interactive way to learn about some of the basics.
 - If you're already a strong coder, and have some R experience, there are also [learning pathways for intermediates at RStudio Education](https://education.rstudio.com/learn/intermediate/) which might be appealing to you.
 
 Our goal is to get everyone well into the intermediate level by December. Some people will get there in September, for others it will take longer. But you can do this, and we'll be there to help you.
