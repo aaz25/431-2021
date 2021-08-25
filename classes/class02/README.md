@@ -19,7 +19,7 @@
 
 > The [introverse package](https://spielmanlab.github.io/introverse/index.html) provides alternate documentation for commonly-used functions and concepts in Base R and in the tidyverse. The provided resources are meant to complement, not replace official documentation and existing R resources. Therefore, the goal of the introverse is to provide beginner-oriented help for most introductory topics within R and the tidyverse, not to provide comprehensive help about using all of R. We hope introverse can help you (and/or your students!) get up-and-running within R and the tidyverse, so that once you get your bearings you can eventually “graduate” from the introverse and take advantage of the official comprehensive documentation/resources.
 
-3. More to come.
+3. Our [Software Tutorials page](https://github.com/THOMASELOVE/431-2021/blob/main/software/README.md) links to lots of useful resources like the introverse, and we recommend you take some time this weekend to get R installed and start getting up to speed.
  
 -----------------
 
