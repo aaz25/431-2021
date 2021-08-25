@@ -3,7 +3,7 @@
 - This is the README for Class 02 of Professor Love's 431 course for Fall 2021. The main website is https://thomaselove.github.io/431/.
 - Each class' README serves as a **starting point**. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
-## Today's Opener
+## Today's Opener: The Quick Survey
 
 As you come in, you will receive a paper survey with 15 questions. Please read these instructions carefully before writing anything down.
 
@@ -12,7 +12,7 @@ As you come in, you will receive a paper survey with 15 questions. Please read t
 3. Be sure to complete all 15 questions (both sides of the paper).
 4. When you are finished, thank your partner and raise your hand. Someone will come around to collect your survey.
 
-Regarding Question 4 on the Survey, Professor Love is the large fellow standing in the front of the room.
+There is a PDF copy of the Quick Survey here, if you'd like to look at the form after your paper copy has been collected.
 
 ## Today's Slides
 
