@@ -12,7 +12,7 @@ As you come in, you will receive a paper survey with 15 questions. Please read t
 3. Be sure to complete all 15 questions (both sides of the paper).
 4. When you are finished, thank your partner and raise your hand. Someone will come around to collect your survey.
 
-There is a PDF copy of the Quick Survey here, if you'd like to look at the form after your paper copy has been collected.
+There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431_quick_survey_2021-08-26.pdf), if you'd like to look at the form after your paper copy has been collected.
 
 ## Today's Slides
 
