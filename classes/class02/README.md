@@ -7,6 +7,10 @@
 
 - Class 02 slides will be posted in [PDF format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.pdf), as well as in [R Markdown format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.Rmd), so you can see how I built them.
 
+## Tweet of the Day
+
+![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/images/victor_2021-08-24.PNG)
+
 ## Today's Announcements
 
 1. Each class is recorded. The Class 01 recording is available on [Canvas](https://canvas.case.edu/) through Modules, or you can view (and, I believe, download) it on the Zoom link provided in our Shared Google Drive. Recordings of each class should be posted the next morning. If you have problems accessing the recordings, let us know about it on [Piazza](https://thomaselove.github.io/431/).
