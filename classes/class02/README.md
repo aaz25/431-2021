@@ -16,7 +16,7 @@ There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/43
 
 ## Today's Slides
 
-- Class 02 slides will be posted in [PDF format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.pdf), as well as in [R Markdown format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class01/431-class01-slides.Rmd), so you can see how I built them.
+- Class 02 slides are available in [PDF format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431-class02-slides.pdf), as well as in [R Markdown format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431-class02-slides.Rmd), so you can see how I built them.
 
 ## Tweet of the Day
 
