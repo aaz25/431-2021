@@ -9,7 +9,7 @@
 
 ## Today's Announcements
 
-1. Each class is recorded. The Class 01 recording is available on Canvas through Modules, or you can view (and, I believe, download) it on the Zoom link I've provided in our Shared Google Drive. Recordings of each class should be posted the next morning during the semester. If you have problems accessing the recordings, let us know about it on [Piazza](https://thomaselove.github.io/431/).
+1. Each class is recorded. The Class 01 recording is available on [Canvas](https://canvas.case.edu/) through Modules, or you can view (and, I believe, download) it on the Zoom link provided in our Shared Google Drive. Recordings of each class should be posted the next morning. If you have problems accessing the recordings, let us know about it on [Piazza](https://thomaselove.github.io/431/).
 
 -----------------
 
