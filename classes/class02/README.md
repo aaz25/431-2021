@@ -30,7 +30,7 @@ There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/43
     - You'll not be analyzing any data using R in this Lab (unlike all the other Labs) but you'll still want to be able to run R to do it.
     - You'll need to have read the introduction to David Spiegelhalter's *The Art of Statistics* before you do the lab. 
 
-3. **MORE TO COME** on the Welcome to 431 survey. 
+3. **MORE TO COME** on the Welcome to 431 survey, and on the Ten Photos Age Guessing from Class 01. 
 
 4. Dr. Love will be away next Tuesday 2021-08-31, so Class 03 will be a pre-recorded Lecture. You will receive instructions on how to watch Class 03 soon, via email and via Piazza. 
 
