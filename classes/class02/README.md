@@ -14,6 +14,12 @@ As you come in, you will receive a paper survey with 15 questions. Please read t
 
 There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431_quick_survey_2021-08-26.pdf), if you'd like to look at the form after your paper copy has been collected.
 
+## People I Need To Talk To (Are you here?)
+
+- Ali Alhomoud
+- Brian Hiidel
+- Tianze Wang
+
 ## Today's Slides
 
 - Class 02 slides are available in [PDF format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431-class02-slides.pdf), as well as in [R Markdown format](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431-class02-slides.Rmd), so you can see how I built them.
