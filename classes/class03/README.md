@@ -17,4 +17,4 @@ In this session, Dr. Love will provide a recording of himself using R and RStudi
 - interspersing code and text in my R Markdown document
 - "knitting" my R Markdown document into an attractive HTML result
 
-All materials will be posted as soon as possible on this page.
+All materials will be posted as soon as possible.
