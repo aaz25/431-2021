@@ -92,7 +92,7 @@ If you're interested, [here is the R Markdown file](https://github.com/THOMASELO
 
 ![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/images/fuzz_zander_2021-08-26.jpg)
 
-That's Fuzzington in the foreground, and the panther is Alexander, at 11:25 this morning. They are 12.
+That's Fuzzington in the foreground, and the panther is Alexander, at 11:25 this morning. They are 12 years old.
 
 -----------------
 
