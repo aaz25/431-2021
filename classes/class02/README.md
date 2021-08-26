@@ -68,7 +68,7 @@ Three Musketeers (3) | 5-0-5 | -3.7 | (1, 23) | 81 | 1267 | 01t, 05t | 0.932 | 0
 
 Here's a comparison of the estimates made by The R Group and The Three Musketeers...
 
-![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/images/class02_photo_plot.png)
+![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/images/class02_photo_plot.jpeg)
 
 6. Dr. Love will be away next Tuesday 2021-08-31, so Class 03 will be a pre-recorded Lecture. You will receive instructions on how to watch Class 03 soon, via email and via Piazza. 
 
