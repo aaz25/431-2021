@@ -34,6 +34,23 @@ Regarding Question 4 on the Quick Survey, Professor Love is the large fellow sta
 - Using R to look at a little data
 - Guessing Dr. Love's Age
 
+## Class 03 will be a Pre-Recorded Demonstration
+
+We won't meet as a group for Class 03. Instead, I will provide a recording of myself using R and R Studio to:
+
+- create a Project in RStudio
+- create an R Markdown document to obtain and describe results
+- ingest a data set from the wild into an R data frame
+- manage that data frame so that it becomes a tidy tibble
+- use that tibble to learn about the data by iterating through
+  - visualizing the data
+  - transforming the data
+  - modeling the data (with a few simple summaries)
+- interspersing code and text in my R Markdown document
+- "knitting" my R Markdown document into an attractive HTML result
+
+All materials will be posted as soon as possible to the Class 03 page.
+
 ## Today's Package Loading
 
 ```{r, message = FALSE}
