@@ -1,7 +1,7 @@
 # 431 Class 02: 2021-08-26
 
 - This is the README for Class 02 of Professor Love's 431 course for Fall 2021. The main website is https://thomaselove.github.io/431/.
-- Each class' README serves as a **starting point**. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
+- Each class' README serves as that day's **starting point**. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
 ## Today's Opener: The Quick Survey
 
