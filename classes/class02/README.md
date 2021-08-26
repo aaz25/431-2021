@@ -80,6 +80,21 @@ Here's a comparison of the estimates made by The R Group and The Three Musketeer
  
 -----------------
 
+## Things To Do Before our Next In-Person Class (one week from today)
+
+I've thrown a lot of stuff your way, and next week will be a bit strange, as I'll be away for much of it. Here's what I'd be trying to do by one week from now.
+
+1. Check Dr. Love's roster posted (as **431 Please Check this Roster**) on the Google Drive I have shared with your CWRU account. Be sure the information is correct, indicate OK if it is, and email me if it isn't. 
+2. Complete the required reading (the [Syllabus](https://thomaselove.github.io/431-2021-syllabus/) and at least the introduction to David Spiegelhalter's *The Art of Statistics*) as specified in the [Course Calendar](https://thomaselove.github.io/431/calendar.html). Chapter 1 of Spiegelhalter is also something worth reading now.
+3. Get all necessary software installed on your computer, following the instructions on our [Software Installation](https://thomaselove.github.io/431/software_install.html) page. Be sure to install the necessary [R Packages](https://thomaselove.github.io/431/r_packages.html), and [data sets](https://thomaselove.github.io/431/data_index.html).
+4. Watch the [Class 03 pre-recording](https://github.com/THOMASELOVE/431-2021/tree/main/classes/class03) when it becomes available. Don't forget that we don't have class next Tuesday 2021-08-31.
+5. Get started on [Lab 01](https://github.com/THOMASELOVE/431-2021/tree/main/labs) which is your first substantial assignment for the course and which is due Monday 2021-09-06 at 9 PM, as indicated by the [Calendar]. 
+    - If you've completed [Lab 01](https://github.com/THOMASELOVE/431-2021/tree/main/labs), then take a look at [Lab 02](https://github.com/THOMASELOVE/431-2021/tree/main/labs), which is due two weeks later, on 2021-09-20.
+6. You are welcome to look at the [Project A instructions](https://thomaselove.github.io/431-2021-projectA/). We will discuss Project A in some detail as part of Class 05 on 2021-09-07, so you can wait until then, if you like. 
+7. Try out [Piazza](https://piazza.com/case/fall2021/pqhs431) if you have any questions about software installation or anything else, or visit [TA office hours](https://thomaselove.github.io/431/contact.html) (which begin on Sunday - zoom links are in our Shared Google Drive.)
+
+--------------------
+
 ## One Last Thing
 
 The 4-minute video from Hans Rosling I wanted to share with you last time is to be found at http://bit.ly/431-rosling. We'll see if I get there today.
