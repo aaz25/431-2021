@@ -14,11 +14,7 @@ As you come in, you will receive a paper survey with 15 questions. Please read t
 
 There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/431_quick_survey_2021-08-26.pdf), if you'd like to look at the form after your paper copy has been collected.
 
-## People I Need To Talk To (Are you here?)
-
-- Ali Alhomoud
-- Brian Hiidel
-- Tianze Wang
+---------
 
 ## Today's Slides
 
@@ -85,6 +81,12 @@ If you're interested, [here is the R Markdown file](https://github.com/THOMASELO
 8. Our [Software Tutorials page](https://github.com/THOMASELOVE/431-2021/blob/main/software/README.md) links to lots of useful resources, and we recommend you take some time this weekend to get R installed and start getting up to speed. For example, there is a new R package and set of tools developed by Stephanie Spielman and colleagues called the [introverse](https://spielmanlab.github.io/introverse/articles/introverse_online.html) which is another way to get some help with basic ideas in R and the tidyverse that we'll be discussing through the semester. Here's a [quote from the introverse's page on Github](https://spielmanlab.github.io/introverse/index.html):
 
 > The [introverse package](https://spielmanlab.github.io/introverse/index.html) provides alternate documentation for commonly-used functions and concepts in Base R and in the tidyverse. The provided resources are meant to complement, not replace official documentation and existing R resources. Therefore, the goal of the introverse is to provide beginner-oriented help for most introductory topics within R and the tidyverse, not to provide comprehensive help about using all of R. We hope introverse can help you (and/or your students!) get up-and-running within R and the tidyverse, so that once you get your bearings you can eventually “graduate” from the introverse and take advantage of the official comprehensive documentation/resources.
+ 
+## People I Need To Talk To (Are any of you here?)
+
+- Ali Alhomoud
+- Brian Hiidel
+- Tianze Wang
  
 -----------------
 
