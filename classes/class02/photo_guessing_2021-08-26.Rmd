@@ -1,0 +1,45 @@
+---
+title: "Photo Age Guesses"
+author: "thomaselove.github.io/431"
+date: "8/26/2021"
+output: html_document
+---
+
+```{r}
+library(patchwork)
+library(tidyverse)
+
+theme_set(theme_bw())
+```
+
+
+```{r}
+df <- tibble(
+    photo = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+    actual_age = c(21, 64, 28, 14, 54, 74, 44, 83, 24, 34),
+    r_group = c(23, 55, 29, 15, 57, 70, 50, 80, 29, 32),
+    musketeers = c(22, 48, 31, 17, 55, 58, 43, 60, 38, 31)
+)
+```
+
+```{r}
+p1 <- ggplot(df, aes(x = r_group, y = actual_age)) +
+    geom_point(size = 4) +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE, col = "red") +
+    geom_abline(slope = 1, intercept = 0, lty = "dashed") +
+    labs(title = "The R Group (r = 0.985)",
+         subtitle = "Dashed line indicates correct guesses")
+
+p2 <- ggplot(df, aes(x = musketeers, y = actual_age)) +
+    geom_point(size = 4) +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE, col = "blue") +
+    geom_abline(slope = 1, intercept = 0, lty = "dashed") +
+    labs(title = "The 3 Musketeers (r = 0.932)",
+         subtitle = "Dashed line indicates correct guesses")
+
+p1 + p2
+
+ggsave("images/class02_photo_plot.jpeg")
+```
+
+
