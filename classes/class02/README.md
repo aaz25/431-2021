@@ -32,9 +32,12 @@ There is a [PDF copy of the Quick Survey here](https://github.com/THOMASELOVE/43
 
 3. I have a roster posted (called 431 Please Check this Roster) on our Shared Drive. Take a look and see if I have the name you want me to use for you, your preferred email, your CWRU ID, your personal pronouns and your program of study. If something's wrong, email me as soon as possible to let me know. If you're not on the list and think you're enrolled in the class, there's a problem.
 
-4. **MORE TO COME** on the Welcome to 431 survey.
+4. Dr. Love prepared detailed [results from the Welcome to 431 Survey](https://bit.ly/welcome-to-431-results), which you should be able to view if you are logged into Google via CWRU. Please give them a look.
 
-5. **MORE TO COME** on the Ten Photos Age Guessing from Class 01. 
+5. In Class 01, 15 groups guessed ages from ten photographs. I'll just summarize the results very briefly.
+
+- 
+
 
 6. Dr. Love will be away next Tuesday 2021-08-31, so Class 03 will be a pre-recorded Lecture. You will receive instructions on how to watch Class 03 soon, via email and via Piazza. 
 
