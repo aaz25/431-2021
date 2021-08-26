@@ -90,6 +90,12 @@ If you're interested, [here is the R Markdown file](https://github.com/THOMASELO
  
 -----------------
 
+![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class02/images/fuzz_zander_2021-08-26.jpg)
+
+The white and black is Fuzzington, and the panther is Alexander. They are 12.
+
+-----------------
+
 ## Things To Do Before our Next In-Person Class (one week from today)
 
 I've thrown a lot of stuff your way, and next week will be a bit strange, as I'll be away for much of it. Here's what I'd be trying to do by one week from now.
