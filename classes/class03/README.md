@@ -27,4 +27,4 @@ All materials will be posted late on Sunday 2021-08-29.
     - Again, be sure to click Raw to download the file if you're not pulling it from the 431-data page.
 - The [431-class03-results.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/431-class03-results.Rmd) file that shows the final version of the R Markdown file created during the recorded session.
 - The HTML version of the document (after knitting the R Markdown) can be viewed at http://rpubs.com/TELOVE/class03-results-431.
-
+- The video recording will be posted late in the day on Sunday 2021-08-29.
