@@ -2,9 +2,9 @@
 
 - This is the README for Class 03 of Professor Love's 431 course for Fall 2021. The main website is https://thomaselove.github.io/431/. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
-## This will be a pre-recorded class. Details to come.
+## This is a pre-recorded class. We will not meet in-person on 2021-08-31. Our next class meeting is Thursday 2021-09-02 at 1 PM in E321, for Class 04.
 
-In this session, Dr. Love will provide a recording of himself using R and RStudio to:
+For Class 03, Dr. Love has provided a recording of himself using R and RStudio to:
 
 - create a Project in RStudio
 - create an R Markdown document to obtain and describe results
@@ -17,7 +17,7 @@ In this session, Dr. Love will provide a recording of himself using R and RStudi
 - interspersing code and text in my R Markdown document
 - "knitting" my R Markdown document into an attractive HTML result
 
-All materials will be posted late on Sunday 2021-08-29.
+The recording will be posted as soon as the audio transcript is complete, likely late in the evening on Sunday 2021-08-29.
 
 ## The Materials
 
@@ -27,4 +27,4 @@ All materials will be posted late on Sunday 2021-08-29.
     - Again, be sure to click Raw to download the file if you're not pulling it from the 431-data page.
 - The [431-class03-results.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/431-class03-results.Rmd) file that shows the final version of the R Markdown file created during the recorded session.
 - The HTML version of the document (after knitting the R Markdown) can be viewed at http://rpubs.com/TELOVE/class03-results-431.
-- The video recording will be posted late in the day on Sunday 2021-08-29.
+- The video recording will be posted as soon as the audio transcript is complete, likely late in the evening on Sunday 2021-08-29.
