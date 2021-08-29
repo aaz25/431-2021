@@ -2,13 +2,13 @@
 title: "431 Class 03 Demonstration"
 author: "Thomas E. Love"
 date: "2021-08-31"
-output: 
-    html_document:
-        code_folding: show
-        number_sections: TRUE
-        toc_float: TRUE
-        toc: TRUE
-        df_print: paged
+output:
+  html_document: 
+    code_folding: show
+    number_sections: TRUE
+    toc_float: TRUE
+    toc: TRUE
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -48,9 +48,13 @@ The data we'll use is from the Quick Survey we did in Class 02 (pdf is available
 ## Today's Questions of Interest
 
 A. What is the distribution of pulse rates among students in 431 since 2014?
+
 B. Does the distribution of student heights change materially over time?
+
 C. Do taller people appear to have paid less for their most recent haircut?
+
 D. Does the relationship between height and haircut price look the same within each sex?
+
 E. For the 2021 students specifically, do students have a more substantial tobacco history if they prefer to speak English or a language other than English?
 
 ## Read in data from `.csv` file
@@ -78,11 +82,10 @@ quicksur_raw %>% count(glasses)
 ```
 
 ```{r}
-quicksur_raw %>% 
+quicksur_raw %>%
     filter(year == "2021") %>%
     tabyl(favcolor)
 ```
-
 
 ## Summarizing Quantities
 
@@ -126,6 +129,7 @@ summary(qsdat)
 ```
 
 - Categorical variables should list the categories, with associated counts. To accomplish this, the variable needs to be represented in R with a `factor`, rather than as a `character` or `numeric` variable.
+- Quantitative variables should show the minimum, median, mean, maximum, etc.
 
 ## Change the categorical variables described with numbers to factors
 
@@ -318,7 +322,7 @@ qsdat %>%
     ggplot(data = ., aes(x = height_in)) +
     geom_histogram(fill = "salmon", col = "white",
                    binwidth = 1) +
-    labs(title = "Heights Dr. Love's students",
+    labs(title = "Heights of Dr. Love's students",
          subtitle = "2021 (n = 55 students with height data)",
          y = "Number of Students",
          x = "Height (inches)")
@@ -343,7 +347,6 @@ qsdat %>% filter(complete.cases(height_in)) %>%
 
 54/(54+1)
 ```
-
 
 # Question C (Heights and Haircut Prices)
 
