@@ -1,0 +1,558 @@
+---
+title: "431 Class 03 Demonstration"
+author: "Thomas E. Love"
+date: "2021-08-31"
+output: 
+    html_document:
+        code_folding: show
+        number_sections: TRUE
+        toc_float: TRUE
+        toc: TRUE
+        df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+# Setup
+
+We're using R Markdown to gather together into a single document the code we build, text commenting on and reacting to that code, and the output of the analyses we build.
+
+## Load packages and set theme
+
+```{r, message = FALSE}
+library(janitor)
+library(knitr)
+library(magrittr)
+library(tidyverse)
+
+theme_set(theme_bw())
+```
+
+Loading packages in R is like opening up apps on your phone. We need to tell R that, in addition to the base functions available in the software, we also have other functions we want to use. 
+
+- The most important package is actually a series of packages called the `tidyverse`, which we'll use in every R Markdown file we create this semester. The `tidyverse` includes several packages, all developed (in part) by Hadley Wickham, Chief Scientist at RStudio.
+    - `dplyr` is the primary package we'll use for data wrangling, cleaning and transformation
+    - `ggplot2` is the primary package we'll use for visualization
+    - other members of the `tidyverse` include packages for importing data, working with factors, and many other common activities.
+- The `janitor` package has some tools for examining, cleaning and tabulating data (including `tabyl()` and `clean_names()`) that we'll use regularly.
+- The `knitr` package has a function called `kable()` that we'll sometimes use to neaten up results.
+- The `magrittr` package includes a pipe function denoted `%$%` which enables us to use "pipes" to pull specific variables out of a data frame (tibble) even when the function we want to use isn't part of the `tidyverse`.
+- It's helpful to load the `tidyverse` package last.
+
+# Ingest the data to `quicksur_raw`
+
+The data we'll use is from the Quick Survey we did in Class 02 (pdf is available from the Class 02 README) and which I've also done in 2014-2020, in various forms.
+
+## Today's Questions of Interest
+
+A. What is the distribution of pulse rates among students in 431 since 2014?
+B. Does the distribution of student heights change materially over time?
+C. Do taller people appear to have paid less for their most recent haircut?
+D. Does the relationship between height and haircut price look the same within each sex?
+E. For the 2021 students specifically, do students have a more substantial tobacco history if they prefer to speak English or a language other than English?
+
+## Read in data from `.csv` file
+
+```{r}
+quicksur_raw <- read_csv("data/quick_survey_2021.csv",
+                         show_col_types = FALSE) %>%
+    clean_names()
+```
+
+## What do we have?
+
+```{r}
+quicksur_raw
+```
+
+```{r}
+glimpse(quicksur_raw)
+```
+
+## Counting Categories
+
+```{r}
+quicksur_raw %>% count(glasses)
+```
+
+```{r}
+quicksur_raw %>% 
+    filter(year == "2021") %>%
+    tabyl(favcolor)
+```
+
+
+## Summarizing Quantities
+
+```{r}
+summary(quicksur_raw$pulse)
+```
+
+# Manage the data into `qsdat`
+
+## Variables we'll look at today
+
+Based on Questions A-E, we need to include the following variables in our analytic data frame.
+
+-   `student`: student identification (numerical code)
+-   `year`: indicates year when survey was taken (August)
+-   `english`: y = prefers to speak English, else n
+-   `smoke`: 1 = never smoker, 2 = quit, 3 = current
+-   `pulse`: pulse rate (beats per minute)
+-   `height_in`: student's height (in inches)
+-   `haircut`: price of student's last haircut (in \$)
+-   `sex`: f (for female) or m (for male)
+
+## Select our variables from `quicksur_raw`
+
+```{r}
+qsdat <- quicksur_raw %>%
+    select(student, year, english, smoke, 
+           pulse, height_in, haircut, sex)
+```
+
+```{r}
+qsdat
+```
+
+## Initial Numeric Summaries
+
+-   Is everything the "type" of variable it should be? Are we getting the summaries we expect?
+
+```{r}
+summary(qsdat)
+```
+
+- Categorical variables should list the categories, with associated counts. To accomplish this, the variable needs to be represented in R with a `factor`, rather than as a `character` or `numeric` variable.
+
+## Change the categorical variables described with numbers to factors
+
+We want the `year` and `smoke` information treated as categorical, rather than as quantitative.
+
+```{r}
+qsdat <- qsdat %>%
+    mutate(year = as_factor(year),
+           smoke = as_factor(smoke))
+```
+
+## Change each character variable to a factor instead
+
+We want to be able to summarize `english` and `sex`. We can use a little coding trick to change all of the character variables to factors.
+
+```{r}
+qsdat <- qsdat %>%
+    mutate(across(where(is_character), as_factor)) 
+```
+
+- The `across(where())` syntax tells R to change everything that gives a TRUE response to "is this a character variable?" into a factor variable.
+
+## Recheck the summaries and do range checks
+
+-   Do these summaries make sense?
+-   Are the minimum and maximum values appropriate?
+-   How much missingness are we to deal with?
+
+```{r}
+summary(qsdat)
+```
+
+- Are we getting counts for all variables that are categorical?
+    - Do the category levels make sense?
+- Are we getting means and medians for all variables that are quantities?
+    - Do the minimum and maximum values make sense for each of these quantities?
+- Which variables have missing data, as indicated by `NA's`?
+- Just to fill in the gap left by the table above, we might ask how many students we had responding each year.
+
+```{r}
+qsdat %>% count(year)
+```
+
+# Question A (Pulse Rates of our Students)
+
+## A first try at a histogram
+
+-   What is the distribution of student `pulse` rates?
+
+```{r}
+ggplot(data = qsdat, aes(x = pulse)) +
+    geom_histogram(fill = "green", col = "blue")
+```
+
+How might we describe this distribution?
+
+- What is the center?
+- How much of a range around that center do we see? How spread out are the data?
+- What is the shape of this distribution?
+    - Is it symmetric, or is it skewed to the left or to the right? 
+
+## Fundamental Numerical Summaries
+
+```{r}
+summary(qsdat$pulse)
+```
+
+- How do the summary statistics help us describe the data?
+- Do the values make sense to you?
+
+```{r, message = FALSE}
+qsdat %$% mosaic::favstats(pulse)
+```
+
+- How can we measure variation (spread) in our data?
+
+## Improving our Histogram
+
+```{r}
+qsdat %>%
+    filter(complete.cases(pulse)) %>%
+    ggplot(data = ., aes(x = pulse)) +
+    geom_histogram(fill = "seagreen", col = "white",
+                   bins = 20) +
+    labs(title = "Pulse Rates of Dr. Love's students",
+         subtitle = "2014 - 2021",
+         y = "Number of Students",
+         x = "Pulse Rate (beats per minute)")
+```
+
+- How did we deal with missing data?
+- How did we add axis labels and titles to the plot?
+- What is the distinction between `fill` and `col` in the histogram?
+- What's the best choice for number of bins in the histogram?
+
+# Question B (Student Heights over Time)
+
+-   Does the distribution of student heights change materially over time, in the period of 2014-2021?
+
+## Five-Number Summary of Heights for Each Year
+
+```{r}
+qsdat %>%
+    filter(complete.cases(height_in)) %>%
+    group_by(year) %>%
+    summarize(n = n(),
+              min = min(height_in),
+              q25 = quantile(height_in, 0.25),
+              median = median(height_in), 
+              q75 = quantile(height_in, 0.75),
+              max = max(height_in))
+```
+
+- Key summaries based on percentiles / quantiles
+    - minimum = 0th, maximum = 100th, median = 50th
+    - quartiles (25th, 50th and 75th percentiles)
+    - Range is maximum - minimum
+    - IQR (inter-quartile range) is 75th - 25th percentile
+- These summaries are generally more resistant to outliers than mean, standard deviation
+- Form the elements of a boxplot (box-and-whisker plot)
+
+## Comparison Boxplot of Heights by Year
+
+```{r}
+qsdat %>%
+    filter(complete.cases(height_in)) %>%
+    ggplot(data = ., aes(x = year, y = height_in)) +
+    geom_boxplot() +
+    labs(title = "Heights of Dr. Love's students, by year",
+         subtitle = "2014 - 2021",
+         x = "Year",
+         y = "Height (in inches)")
+```
+
+- How did we deal with missing data here?
+- Box covers the middle half of the data (25th and 75th percentiles)
+- Solid line indicates median
+- Whiskers extend from the quartiles to the most extreme values that are not judged by Tukey's "fences" method to be candidate outliers
+    - Fences are drawn at 25th percentile - 1.5 IQR and 75th percentile + 1.5 IQR
+- Are any values candidate outliers by this method? For which years?
+- Was it important to change `year` to a factor instead of a numeric variable earlier?
+
+## Adding a Violin Plot to the Boxplot
+
+- When we'd like to better understand the shape of a distribution, we can amplify the boxplot.
+
+```{r}
+qsdat %>%
+    filter(complete.cases(height_in)) %>%
+    ggplot(data = ., aes(x = year, y = height_in)) +
+    geom_violin() +
+    geom_boxplot(aes(fill = year), width = 0.3) +
+    guides(fill = "none") +
+    scale_fill_viridis_d() +
+    labs(title = "Heights of Dr. Love's students, by year",
+         subtitle = "2014 - 2021",
+         x = "Year",
+         y = "Height (in inches)")
+```
+
+
+- How did we change the boxplot when we added the violin?
+- What would happen if we added the boxplot first and the violin second?
+- What does `guides(fill = "none")` do?
+- What does `scale_fill_viridis_d()` do?
+
+## Table of Means and Standard Deviations
+
+```{r}
+qsdat %>%
+    filter(complete.cases(height_in)) %>%
+    group_by(year) %>%
+    summarize(n = n(),
+              mean = mean(height_in),
+              sd = sd(height_in))
+```
+
+## The Empirical Rule for Approximately Normal Distributions
+
+- If the data followed a Normal (or Gaussian) distribution, then approximately 68% of heights would be within 1 SD of the mean, and approximately 95% of heights would be within 2 SD of the mean.
+
+In 2021, we had 55 students whose `height_in` was available.
+
+- Do those 55 students appear to be well modeled by a Normal distribution, based on the histogram below and the boxplot with violin we saw previously?
+
+```{r}
+qsdat %>%
+    filter(complete.cases(height_in)) %>%
+    filter(year == "2021") %>%
+    ggplot(data = ., aes(x = height_in)) +
+    geom_histogram(fill = "salmon", col = "white",
+                   binwidth = 1) +
+    labs(title = "Heights Dr. Love's students",
+         subtitle = "2021 (n = 55 students with height data)",
+         y = "Number of Students",
+         x = "Height (inches)")
+```
+
+- Of those, how many were within 1 SD of the mean, in other words, how many were in between 67.75 - 4.13 = 63.62 inches and 67.75 + 4.13 = 71.88 inches?
+
+```{r}
+qsdat %>% filter(complete.cases(height_in)) %>%
+    filter(year == "2021") %>%
+    count(height_in >= 63.62 & height_in <= 71.88)
+
+34/(34+21)
+```
+
+- How many of the 55 `height_in` values gathered in 2021 were between 67.75 - (2)4.13 = 59.49 and 67.75 + 2(4.13) = 76.01?
+
+```{r}
+qsdat %>% filter(complete.cases(height_in)) %>%
+    filter(year == "2021") %>%
+    count(height_in >= 59.49 & height_in <= 76.01)
+
+54/(54+1)
+```
+
+
+# Question C (Heights and Haircut Prices)
+
+-   Do taller people pay less for their haircuts?
+
+## Converting inches to centimeters
+
+```{r}
+qsdat <- qsdat %>%
+    mutate(height_cm = height_in * 2.54)
+```
+
+## Initial Numerical Summaries
+
+```{r}
+qsdat %>%
+    filter(complete.cases(haircut, height_cm)) %>%
+    summarize(n = n(), median(haircut), 
+              median(height_cm), median(height_in))
+```
+
+## A First Scatterplot
+
+- We'll include the straight line from a linear model, in red.
+
+```{r}
+qsdat %>% filter(complete.cases(height_cm, haircut)) %>%
+    ggplot(., aes(x = height_cm, y = haircut)) +
+    geom_point(alpha = 0.3) + 
+    geom_smooth(method = "lm", col = "red",
+                formula = y ~ x, se = TRUE) +
+    labs(x = "Height (in cm)",
+         y = "Price of last haircut (in $)",
+         title = "Do taller people pay less for haircuts?")
+```
+
+## What is the (Pearson) correlation of height and haircut price?
+
+```{r}
+qsdat %>% 
+    select(height_in, height_cm, haircut) %>%
+    filter(complete.cases(.)) %>%
+    cor(.) %>%
+    kable(digits = 2)
+```
+
+## What is the straight line regression model?
+
+```{r}
+m1 <- qsdat %>% 
+    filter(complete.cases(haircut, height_cm)) %$%
+    lm(haircut ~ height_cm)
+
+m1
+
+summary(m1)
+```
+
+## Compare the `lm` fit to a `loess` smooth curve?
+
+```{r}
+qsdat %>% filter(complete.cases(height_cm, haircut)) %>%
+    ggplot(., aes(x = height_cm, y = haircut)) +
+    geom_point(alpha = 0.3) + 
+    geom_smooth(method = "lm", col = "red",
+                formula = y ~ x, se = FALSE) +
+    geom_smooth(method = "loess", col = "blue",
+                formula = y ~ x, se = FALSE) +
+    labs(x = "Height (in cm)",
+         y = "Price of last haircut (in $)",
+         title = "Do taller people pay less for haircuts?")
+```
+
+- Does a linear model appear to fit these data well?
+
+# Question D (Height, Haircut Price and Sex)
+
+- Does the haircut-height relationship look the same within each sex?
+
+```{r}
+qsdat %>% tabyl(sex)
+```
+
+## When do we see the missing `sex` data?
+
+```{r}
+qsdat %>% tabyl(sex, year)
+```
+
+## Some Numerical Summaries
+
+```{r}
+qsdat %>%
+    filter(complete.cases(sex, haircut, height_cm)) %>%
+    group_by(sex) %>%
+    summarize(n = n(), median(haircut), median(height_cm))
+```
+
+## A scatterplot, identifying the sex of each subject
+
+```{r}
+qsdat %>% filter(complete.cases(height_cm, haircut, sex)) %>%
+    ggplot(., aes(x = height_cm, y = haircut, 
+                  group = sex, col = sex)) +
+    geom_point() + 
+    geom_smooth(method = "loess", formula = y ~ x, se = FALSE) +
+    labs(x = "Height (in cm)",
+         y = "Price of last haircut (in $)",
+         title = "Do taller people pay less for haircuts?",
+         subtitle = "accounting for sex")
+```
+
+## An alternative approach to identifying `sex`, with `facet_wrap`
+
+```{r}
+qsdat %>% filter(complete.cases(height_cm, haircut, sex)) %>%
+    ggplot(., aes(x = height_cm, y = haircut, col = sex)) +
+    geom_point() + 
+    geom_smooth(method = "lm", col = "red",
+                formula = y ~ x, se = FALSE) +
+    geom_smooth(method = "loess", col = "blue",
+                formula = y ~ x, se = FALSE) +
+    facet_wrap(~ sex) +
+    labs(x = "Height (in cm)",
+         y = "Price of last haircut (in $)",
+         title = "Do taller people pay less for haircuts?",
+         subtitle = "accounting for sex")
+```
+
+## A third scatterplot looking at the same question
+
+```{r}
+qsdat %>% filter(complete.cases(height_cm, haircut, sex)) %>%
+    ggplot(., aes(x = height_cm, y = haircut, col = sex)) +
+    geom_point() + 
+    geom_smooth(method = "lm", col = "red",
+                formula = y ~ x, se = FALSE) +
+    geom_smooth(method = "loess", col = "blue",
+                formula = y ~ x, se = FALSE) +
+    facet_grid(sex ~ .) +
+    guides(col = "none") +
+    labs(x = "Height (in cm)",
+         y = "Price of last haircut (in $)",
+         title = "Do taller people pay less for haircuts?",
+         subtitle = "accounting for sex")
+```
+
+# Question E (Tobacco and Language Preference in 2021)
+
+-   Do students in the 2021 class have a more substantial history of tobacco use if they prefer to speak a language other than English?
+
+```{r}
+qsdat2021 <- qsdat %>% 
+    filter(year == "2021") %>%
+    select(student, year, english, smoke)
+```
+
+```{r}
+summary(qsdat2021)
+```
+
+No missing data.
+
+## Tabulating the categorical variables individually
+
+```{r}
+qsdat2021 %>% tabyl(english)
+
+qsdat2021 %>% tabyl(smoke) %>% adorn_pct_formatting()
+```
+
+- What does `adorn_pct_formatting()` do?
+
+## Creating a cross-classification table (2 x 3)
+
+```{r}
+qsdat2021 %>% tabyl(english, smoke)
+```
+
+## Recode the `smoke` levels to more meaningful names in `tobacco`
+
+```{r}
+qsdat2021 <- qsdat2021 %>% 
+    mutate(tobacco = fct_recode(smoke, 
+            "Never" = "1", "Quit" = "2", "Current" = "3"))
+```
+
+Check our work?
+
+```{r}
+qsdat2021 %>% count(smoke, tobacco)
+```
+
+- Everyone with `smoke` = 1 has `tobacco` as Never, etc.
+
+## Restate the cross-tabulation 
+
+Now we'll use this new variable, and this time, add row and column totals.
+
+```{r}
+qsdat2021 %>% tabyl(english, tobacco) %>% 
+    adorn_totals(where = c("row", "col"))
+```
+
+Don't forget to close your file with the session information.
+
+# Session Information
+
+```{r}
+sessionInfo()
+```
+
