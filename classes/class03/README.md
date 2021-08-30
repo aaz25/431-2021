@@ -2,7 +2,7 @@
 
 [Main Website](https://thomaselove.github.io/431/) | [Course Calendar](https://thomaselove.github.io/431/calendar.html) | [Syllabus](https://thomaselove.github.io/431-2021-syllabus/) | [Course Notes](https://thomaselove.github.io/431-notes/) | [Piazza & TA Office Hours](https://thomaselove.github.io/431/contact.html) | [Canvas](https://canvas.case.edu) | [Data and Code](https://github.com/THOMASELOVE/431-data)
 :-----------: | :--------------: | :----------: | :---------: | :-------------: | :-----------: | :------------:
-for everything | for deadlines | expectations | from Dr. Love | ways to get help | zoom information | for downloads
+for everything | for deadlines | expectations | from Dr. Love | ways to get help | labs & recordings | for downloads
 
 - This is the README for Class 03 of Professor Love's 431 course for Fall 2021. The main website is https://thomaselove.github.io/431/. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
 
