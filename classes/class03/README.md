@@ -40,10 +40,10 @@ We address these five "analytic" questions in the file, using the data from the 
 
 ## R Tools Demonstrated in Class 03
 
-In addition to demonstrating general approaches for creating R projects and R Markdown files, we demonstrate the following key ideas:
+In addition to demonstrating general approaches for creating R projects and R Markdown files, and loading R packages, we demonstrate the following key ideas:
 
 1. Reading in data with `read_csv` from a csv (comma-separated version text) file.
-2. The six key verbs: `count`, `filter`, `select`, `mutate`, `group_by` and `summarize`
+2. Six key verbs from the `tidyverse`: `count`, `filter`, `select`, `mutate`, `group_by` and `summarize`
 3. Using two pipes: `%>%` for work within the tidyverse and `%$%` to extract variables from a tibble.
 4. Summarizing data with `summary`, `tabyl` and with `mosaic::favstats`
 5. Using `across` and `where` to do more efficient programming across columns
@@ -53,8 +53,10 @@ In addition to demonstrating general approaches for creating R projects and R Ma
     - Setting the x and y variables with `aes()`
     - Using `geom_histogram()` to obtain histograms of quantities
     - Using `geom_boxplot()` and `geom_violin()` for comparisons of quantities across categories (groups)
-    - Using `geom_point()` and `geom_smooth()` to build scatterplots of the association between quantities
+    - Using `geom_point()` and `geom_smooth()` to build scatterplots of the association between quantities and fit linear models and loess smooths to data
     - Building multiple plots with `facet_grid()` and `facet_wrap()` and by using `aes(group = ., color = .)` to divide plots by a category
+    - Using `labs()` to set axis labels, main and sub-titles
+    - Using `guides(col = "none")` to delete legends from a plot where color is used to separate groups
 9. Using `lm` to fit and `summary(lm())` to summarize a straight-line ordinary least squares linear regression model
 10. Using `sessionInfo()` to describe information about your installation of R at the end of your session.
 
