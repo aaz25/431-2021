@@ -21,7 +21,7 @@ For Class 03, Dr. Love has recorded himself using R and RStudio to:
 - interspersing code and text in an R Markdown document
 - "knitting" that R Markdown document into an attractive HTML result
 
-## The Materials
+## The Materials for Class 03
 
 - The 97-minute video recording is available **now**, via either the Modules section or the Echo 360 section of [Canvas](https://canvas.case.edu/), or directly through Zoom at the link provided on our Shared Google Drive.
     - If you view the recording directly through Zoom (where you should also be able to download the recording) you should be able to click into the transcript to look at specific pieces of the work.
@@ -31,6 +31,7 @@ For Class 03, Dr. Love has recorded himself using R and RStudio to:
     - Again, be sure to click Raw to download the file if you're not pulling it from the 431-data page.
 - The [431-class03-results.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/431-class03-results.Rmd) file that shows the final version of the R Markdown file created during the recorded session.
 - The HTML version of the document (after knitting the R Markdown) can be viewed at http://rpubs.com/TELOVE/class03-results-431.
+- There are no slides for Class 03.
 
 ## Analytic Questions Addressed in Class 03
 
