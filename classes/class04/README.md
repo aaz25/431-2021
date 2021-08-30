@@ -9,7 +9,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 ## Today's Slides
 
 - The slides for Class 04 will be available [in a PDF] and in [an R Markdown file].
-- The recording of Class 04 will be posted to Canvas on Friday 2021-09-03.
+- The recording will be made available approximately 24 hours after class through our Shared Google Drive and via Modules and Echo 360 on [Canvas](https://canvas.case.edu).
 
 ## This will be a working lab class, led by Wyatt P. Bensken.
 
