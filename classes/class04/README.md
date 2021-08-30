@@ -1,11 +1,19 @@
 # 431 Class 04: 2021-09-02
 
-- This is the README for Class 04 of Professor Love's 431 course for Fall 2021. The main website is https://thomaselove.github.io/431/. Get here through the link on the [Course Calendar](https://thomaselove.github.io/431/calendar.html).
+[Main Website](https://thomaselove.github.io/431/) | [Course Calendar](https://thomaselove.github.io/431/calendar.html) | [Syllabus](https://thomaselove.github.io/431-2021-syllabus/) | [Course Notes](https://thomaselove.github.io/431-notes/) | [Piazza & TA Office Hours](https://thomaselove.github.io/431/contact.html) | [Canvas](https://canvas.case.edu) | [Data and Code](https://github.com/THOMASELOVE/431-data)
+:-----------: | :--------------: | :----------: | :---------: | :-------------: | :-----------: | :------------:
+for everything | for deadlines | expectations | from Dr. Love | ways to get help | zoom information | for downloads
 
-## This will be a working lab class, led by Wyatt P. Bensken. More information to come.
+> My biggest regret as a 1st year grad student was pretending to say I knew X when I didn't really. Learning to say "No, tell me about X" became a gateway for (1) learning stuff, (2) getting to know a person, and (3) learning how to say no in other areas of my life. - [Josephine Lutko](https://twitter.com/JosephineLukito/status/1303081582492889088)
+
+## Today's Slides
 
 - The slides for Class 04 will be available [in a PDF] and in [an R Markdown file].
 - The recording of Class 04 will be posted to Canvas on Friday 2021-09-03.
+
+## This will be a working lab class, led by Wyatt P. Bensken.
+
+- More information to come.
 
 ## What should I be working on between now and Class 05 on Tuesday 2021-09-07?
 
