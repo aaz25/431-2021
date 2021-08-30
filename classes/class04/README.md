@@ -17,6 +17,10 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 - Please bring your laptop and ensure you have reviewed the [Class 03](https://github.com/THOMASELOVE/431-2021/tree/main/classes/class03) pre-recorded lecture
 - **You'll also want to download the .Rmd file for this in-class activity, as well as create an associated R Project**
 
+## Other Announcements
+
+- Wyatt will be adding some additional announcements before the start of class on Thursday.
+
 ## What should I be working on between now and Class 05 on Tuesday 2021-09-07?
 
 1. Make sure you complete [Lab 01](https://github.com/THOMASELOVE/431-2021/tree/main/labs) by the deadline, which is **Monday 2021-09-06 at 9 PM**. Be sure to submit all items through [Canvas](https://canvas.case.edu/) as requested.
