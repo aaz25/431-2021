@@ -62,3 +62,12 @@ In addition to demonstrating general approaches for creating R projects and R Ma
 
 All of this material is also demonstrated in early Chapters of the [Course Notes](https://thomaselove.github.io/431-notes/), and we will review (and augment) these ideas in class over the next few weeks.
 
+# Things to do before Thursday's Class 04
+
+1. Watch the video provided for Class 03, and (if you like) work your way through the R Markdown files provided.
+2. Complete the required reading (the [Syllabus](https://thomaselove.github.io/431-2021-syllabus/) and at least the introduction to David Spiegelhalter's *The Art of Statistics*) as specified in the [Course Calendar](https://thomaselove.github.io/431/calendar.html). Chapter 1 of Spiegelhalter is also something worth reading now.
+3. Get all necessary software installed on your computer, following the instructions on our [Software Installation](https://thomaselove.github.io/431/software_install.html) page. Be sure to install the necessary [R Packages](https://thomaselove.github.io/431/r_packages.html), and [data sets](https://thomaselove.github.io/431/data_index.html). And check out our [Software Tutorials](https://github.com/THOMASELOVE/431-2021/blob/main/software/README.md) page for some additional suggestions on how to get up to speed with R.
+4. Get started on [Lab 01](https://github.com/THOMASELOVE/431-2021/tree/main/labs) which is your first substantial assignment for the course and which is due Monday 2021-09-06 at 9 PM, as indicated by the [Calendar](https://thomaselove.github.io/431/calendar.html). 
+    - If you've completed [Lab 01](https://github.com/THOMASELOVE/431-2021/tree/main/labs), then take a look at [Lab 02](https://github.com/THOMASELOVE/431-2021/tree/main/labs), which is due two weeks later, on 2021-09-20.
+5. Try out [Piazza](https://piazza.com/case/fall2021/pqhs431) if you have any questions about software installation or anything else, or visit [TA office hours](https://thomaselove.github.io/431/contact.html) (which are held every day except Tuesday - Zoom links are in our Shared Google Drive.)
+
