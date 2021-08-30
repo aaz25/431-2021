@@ -8,7 +8,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## Today's Slides
 
-- The slides for Class 04 will be available [in a PDF] and in [an R Markdown file] in the coming days.
+- The slides for Class 04 will be available [in a PDF](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class04/431_class-04-slides_2021.pdf) and in [an R Markdown file](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class04/431_class-04-slides_2021.Rmd)
 - The recording will be made available approximately 24 hours after class through our Shared Google Drive and via Modules and Echo 360 on [Canvas](https://canvas.case.edu).
 
 ## This will be a working lab class, led by Wyatt Bensken.
