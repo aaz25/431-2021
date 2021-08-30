@@ -11,3 +11,4 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 - Class 05 slides will be available in [PDF format], as well as in [R Markdown].
 - The recording will be made available approximately 24 hours after class through our Shared Google Drive and via Modules and Echo 360 on [Canvas](https://canvas.case.edu).
 
+## More to come.
