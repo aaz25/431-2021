@@ -21,7 +21,7 @@ For Class 03, Dr. Love has recorded himself using R and RStudio to:
 
 - The 97-minute video recording is available **now**, via either the Modules section or the Echo 360 section of [Canvas](https://canvas.case.edu/), or directly through Zoom at the link provided on our Shared Google Drive.
     - If you view the recording directly through Zoom (where you should also be able to download the recording) you should be able to click into the transcript to look at specific pieces of the work.
-- The [431-r-template.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/431-first-r-template.Rmd) file I'll start with (this is also available as part of [our 431-data page](https://github.com/THOMASELOVE/431-data)).
+- The [431-first-r-template.Rmd](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/431-first-r-template.Rmd) file I'll start with (this is also available as part of [our 431-data page](https://github.com/THOMASELOVE/431-data)).
     - Be sure to click Raw to download the plain text version if that's what you want.
 - The [quick_survey_2021.csv](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class03/data/quick_survey_2021.csv) file containing the data we'll use (this is also available as part of [our 431-data page](https://github.com/THOMASELOVE/431-data))
     - Again, be sure to click Raw to download the file if you're not pulling it from the 431-data page.
