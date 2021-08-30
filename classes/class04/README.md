@@ -4,8 +4,6 @@
 :-----------: | :--------------: | :----------: | :---------: | :-------------: | :-----------: | :------------:
 for everything | for deadlines | expectations | from Dr. Love | ways to get help | labs & recordings | for downloads
 
-> Quote to come.
-
 ## Today's Slides
 
 - The slides for Class 04 will be available [in a PDF](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class04/431_class-04-slides_2021.pdf) and in [an R Markdown file](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class04/431_class-04-slides_2021.Rmd)
