@@ -1,0 +1,72 @@
+---
+title: "YOUR NAME: 431 Class 04 In Class Activity"
+author: "YOUR NAME"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: yes
+    code_folding: show
+---
+
+```{r setup, include=FALSE, message = FALSE}
+knitr::opts_chunk$set(comment=NA)
+options(width = 70)
+```
+
+## Setup
+
+```{r load_packages, message = FALSE, warning = FALSE}
+
+library(tidyverse)
+
+## always need tidyverse, can include other packages too
+## which should always be inserted above the tidyverse
+```
+
+## Import the `midwest` data
+
+The midwest data is already in R, so you don't need to import it. However we will pull it from the package to our environment with the below code.
+
+```{r}
+midwest <- midwest
+```
+
+# Task 1: Load and Explore the Data
+
+```{r}
+
+```
+
+# Task 2: Look at Cuyahoga County
+
+```{r}
+
+```
+
+# Task 3: Make a boxplot
+
+```{r}
+
+```
+
+
+# Task 4: Make a scatterplot
+
+```{r}
+
+```
+
+# Task 5: Add a Loess smooth
+
+```{r}
+
+```
+
+# Session Information
+
+Adding a `sessionInfo()` chunk at the end of your document helps with reproducibility.  Take a look to see what it produces, and include the command at the end of this Lab, please.
+
+```{r}
+sessionInfo()
+```
+
