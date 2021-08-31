@@ -17,6 +17,10 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## Tweet of the Day
 
+![](https://github.com/THOMASELOVE/431-2021/blob/main/classes/class04/dahly-2021-04-22.png)
+
+See [here](https://twitter.com/statsepi/status/1385126000149807105) for his 7-steps.
+
 ## Other Announcements
 
 - A tip for Homework 1
